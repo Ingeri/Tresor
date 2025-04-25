@@ -1,0 +1,401 @@
+[
+    {
+        "id": 1,
+        "title": "The Importance of Art in Society",
+        "author": "Jane Doe",
+        "date": "2025-03-25",
+        "content": [
+            {
+                "type": "heading",
+                "level": 1,
+                "text": "Introduction"
+            },
+            {
+                "type": "paragraph",
+                "text": "Art has always been a part of human culture, influencing everything from our daily lives to the larger societal movements. It serves as a mirror to our beliefs, struggles, and triumphs."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Art as a Reflection of Society"
+            },
+            {
+                "type": "paragraph",
+                "text": "Art provides a way for society to express its values, conflicts, and social issues. Through different forms such as painting, sculpture, and music, artists create works that reflect their experiences and those of their communities."
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Cultural identity",
+                    "Political movements",
+                    "Social justice issues"
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Conclusion"
+            },
+            {
+                "type": "paragraph",
+                "text": "Art continues to shape how we view the world, and it plays a crucial role in our collective understanding of both history and the present."
+            },
+            {
+                "type": "table",
+                "headers": ["Type", "Example", "Impact"],
+                "rows": [
+                    ["Painting", "Mona Lisa", "Represents the Renaissance era's fascination with humanism."],
+                    ["Music", "Beethoven's Symphony No. 9", "Conveys the power of human emotion and freedom."],
+                    ["Sculpture", "David by Michelangelo", "Embodies the ideal human form and Renaissance artistic principles."]
+                ]
+            }
+        ],
+        "related_articles": [
+            {"id": 2},
+            {"id": 3}
+        ],
+        "filters": [
+            "Featured",
+            "New"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "The Role of Technology in Modern Art",
+        "author": "John Smith",
+        "date": "2025-03-26",
+        "content": [
+            {
+                "type": "heading",
+                "level": 1,
+                "text": "Introduction"
+            },
+            {
+                "type": "paragraph",
+                "text": "With the rise of technology, the world of art has been greatly influenced by new digital tools and platforms. Artists are increasingly using technology to push the boundaries of traditional art forms."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Digital Art Forms"
+            },
+            {
+                "type": "paragraph",
+                "text": "From virtual reality installations to AI-generated artwork, technology is opening up new possibilities for creativity."
+            },
+            {
+                "type": "list",
+                "items": [
+                    "3D printing",
+                    "Digital painting",
+                    "Virtual reality experiences"
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Challenges and Opportunities"
+            },
+            {
+                "type": "paragraph",
+                "text": "While technology offers new opportunities, it also raises questions about the authenticity and value of digital art."
+            }
+        ],
+        "related_articles": [
+            {"id": 1},
+            {"id": 3}
+        ],
+        "filters": [
+            "Trending",
+            "Backend"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Art and the Environment: A Growing Connection",
+        "author": "Alice Green",
+        "date": "2025-03-27",
+        "content": [
+            {
+                "type": "heading",
+                "level": 1,
+                "text": "Introduction"
+            },
+            {
+                "type": "paragraph",
+                "text": "As global awareness of environmental issues grows, art has become a powerful tool for raising awareness and inspiring action."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Environmental Art Movements"
+            },
+            {
+                "type": "paragraph",
+                "text": "Artists are using their work to comment on climate change, pollution, and sustainability, drawing attention to these critical issues."
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Eco-art",
+                    "Sustainable art practices",
+                    "Environmental activism through art"
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Conclusion"
+            },
+            {
+                "type": "paragraph",
+                "text": "Art plays an essential role in highlighting environmental issues and inspiring us to make meaningful changes for a sustainable future."
+            }
+        ],
+        "related_articles": [
+            {"id": 1},
+            {"id": 2}
+        ],
+        "filters": [
+            "Featured",
+            "Frontend"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "The Intersection of Art and Psychology",
+        "author": "David Brown",
+        "date": "2025-03-28",
+        "content": [
+            {
+                "type": "heading",
+                "level": 1,
+                "text": "Introduction"
+            },
+            {
+                "type": "paragraph",
+                "text": "The connection between art and psychology has long been a subject of study. Art can reflect and affect our psychological state, offering both therapeutic benefits and a means of self-expression."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Art Therapy"
+            },
+            {
+                "type": "paragraph",
+                "text": "Art therapy is used to help individuals express their emotions, reduce stress, and process trauma. It allows people to work through their feelings in a non-verbal, creative way."
+            },
+            {
+                "type": "table",
+                "headers": ["Type", "Example", "Impact"],
+                "rows": [
+                    ["Painting", "Mona Lisa", "Represents the Renaissance era's fascination with humanism."],
+                    ["Music", "Beethoven's Symphony No. 9", "Conveys the power of human emotion and freedom."],
+                    ["Sculpture", "David by Michelangelo", "Embodies the ideal human form and Renaissance artistic principles."]
+                ]
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Art therapy for mental health",
+                    "Healing through creative expression",
+                    "The therapeutic power of color and form"
+                ]
+            }
+        ],
+        "related_articles": [
+            {"id": 1},
+            {"id": 5}
+        ],
+        "filters": [
+            "New",
+            "Backend"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Exploring Abstract Art",
+        "author": "Susan White",
+        "date": "2025-03-29",
+        "content": [
+            {
+                "type": "heading",
+                "level": 1,
+                "text": "Introduction"
+            },
+            {
+                "type": "paragraph",
+                "text": "Abstract art challenges traditional notions of representation, allowing artists to explore color, form, and emotion in new ways."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "The Evolution of Abstract Art"
+            },
+            {
+                "type": "paragraph",
+                "text": "From early pioneers like Wassily Kandinsky to modern abstract artists, the movement has significantly influenced the art world."
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Non-representational forms",
+                    "Emotional expression through abstraction",
+                    "Influence on contemporary art"
+                ]
+            }
+        ],
+        "related_articles": [
+            {"id": 1},
+            {"id": 4}
+        ],
+        "filters": [
+            "Featured",
+            "New"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "The Impact of Street Art",
+        "author": "Emily Black",
+        "date": "2025-03-30",
+        "content": [
+            {
+                "type": "heading",
+                "level": 1,
+                "text": "Introduction"
+            },
+            {
+                "type": "paragraph",
+                "text": "Street art has evolved from illegal graffiti to a globally recognized art form. It has become a powerful tool for self-expression and social commentary."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "The Rise of Street Art"
+            },
+            {
+                "type": "paragraph",
+                "text": "Street art emerged as a form of rebellion but has since gained acceptance in mainstream culture. Artists like Banksy and Shepard Fairey have made street art part of the global conversation."
+            }
+        ],
+        "related_articles": [
+            {"id": 1},
+            {"id": 7}
+        ],
+        "filters": [
+            "Trending",
+            "Frontend"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Art and Technology: A New Frontier",
+        "author": "Mark Harris",
+        "date": "2025-03-31",
+        "content": [
+            {
+                "type": "heading",
+                "level": 1,
+                "text": "Introduction"
+            },
+            {
+                "type": "paragraph",
+                "text": "As technology continues to advance, artists are embracing digital tools to create new forms of art that were once unimaginable."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "The Future of Art"
+            },
+            {
+                "type": "paragraph",
+                "text": "With technologies like augmented reality, artificial intelligence, and 3D printing, the future of art promises to be more interactive and immersive than ever before."
+            }
+        ],
+        "related_articles": [
+            {"id": 2},
+            {"id": 6}
+        ],
+        "filters": [
+            "Trending",
+            "Backend"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "The Role of Museums in Art Preservation",
+        "author": "Rachel Blue",
+        "date": "2025-04-01",
+        "content": [
+            {
+                "type": "heading",
+                "level": 1,
+                "text": "Introduction"
+            },
+            {
+                "type": "paragraph",
+                "text": "Museums play a crucial role in preserving art for future generations. They not only protect valuable works but also educate the public about the importance of art in society."
+            }
+        ],
+        "related_articles": [
+            {"id": 4},
+            {"id": 9}
+        ],
+        "filters": [
+            "New",
+            "Frontend"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "The Rise of Digital Art Collecting",
+        "author": "Nathan Grey",
+        "date": "2025-04-02",
+        "content": [
+            {
+                "type": "heading",
+                "level": 1,
+                "text": "Introduction"
+            },
+            {
+                "type": "paragraph",
+                "text": "With the rise of blockchain technology, digital art collecting has become a booming market. Platforms like NFTs are changing how art is bought, sold, and owned."
+            }
+        ],
+        "related_articles": [
+            {"id": 3},
+            {"id": 7}
+        ],
+        "filters": [
+            "Trending",
+            "New"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "The Influence of Art on Culture",
+        "author": "Sophia Gold",
+        "date": "2025-04-03",
+        "content": [
+            {
+                "type": "heading",
+                "level": 1,
+                "text": "Introduction"
+            },
+            {
+                "type": "paragraph",
+                "text": "Art shapes the culture in which it is created, influencing everything from fashion to language. The impact of art on culture is vast and enduring."
+            }
+        ],
+        "related_articles": [
+            {"id": 2},
+            {"id": 4}
+        ],
+        "filters": [
+            "New",
+            "Backend"
+        ]
+    }
+    
+]

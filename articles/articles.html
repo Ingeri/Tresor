@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Articles</h1>
+
+    <!-- Search Input -->
+    <div class="search">
+        <input type="text" id="search-input" placeholder="Search for articles..." onkeyup="filterArticles()" />
+    </div>
+
+    <!-- Filters -->
+    <div class="filters">
+        <label class="filter-checkbox"><input type="checkbox" id="filter-trending" onchange="filterArticles()" /> 🔥 Trending</label>
+        <label class="filter-checkbox"><input type="checkbox" id="filter-featured" onchange="filterArticles()" /> ⭐ Featured</label>
+        <label class="filter-checkbox"><input type="checkbox" id="filter-new" onchange="filterArticles()" /> 🆕 New</label>
+        <label class="filter-checkbox"><input type="checkbox" id="filter-frontend" onchange="filterArticles()" /> 🎨 Frontend</label>
+        <label class="filter-checkbox"><input type="checkbox" id="filter-backend" onchange="filterArticles()" /> ⚙️ Backend</label>
+    </div>
+
+    <div id="articles-list" class="articles-list">
+        <!-- Article links will be dynamically inserted here -->
+    </div>
+
+    <script>
+        let articles = [];  // Global variable to store fetched articles
+
+        // Function to fetch and display articles
+        async function fetchArticles() {
+            try {
+                const response = await fetch('articles.json');
+                const data = await response.json();
+                articles = data;  // Store the articles globally
+
+                // Initially display all articles
+                displayArticles(articles);
+            } catch (error) {
+                console.error('Error fetching articles:', error);
+            }
+        }
+
+        // Function to display articles
+        function displayArticles(filteredArticles) {
+            const articlesList = document.getElementById('articles-list');
+            articlesList.innerHTML = '';  // Clear any existing articles
+
+            filteredArticles.forEach(article => {
+                const articleLink = document.createElement('a');
+                articleLink.href = `article-template.html?id=${article.id}`;
+                articleLink.classList.add('article-link');
+                articleLink.textContent = article.title;
+
+                // Append the article link to the list
+                articlesList.appendChild(articleLink);
+            });
+        }
+
+        // Real-time filtering function
+        function filterArticles() {
+            const searchQuery = document.getElementById('search-input').value.toLowerCase();
+
+            // Get selected filters
+            const filters = [];
+            if (document.getElementById('filter-trending').checked) filters.push("Trending");
+            if (document.getElementById('filter-featured').checked) filters.push("Featured");
+            if (document.getElementById('filter-new').checked) filters.push("New");
+            if (document.getElementById('filter-frontend').checked) filters.push("Frontend");
+            if (document.getElementById('filter-backend').checked) filters.push("Backend");
+
+            // Filter articles based on search query and selected filters
+            const filteredArticles = articles.filter(article => {
+                const matchesSearch = article.title.toLowerCase().includes(searchQuery);
+                const matchesFilters = filters.every(filter => article.filters && article.filters.includes(filter));
+
+                return matchesSearch && matchesFilters;
+            });
+
+            // Display filtered articles
+            displayArticles(filteredArticles);
+        }
+
+        // Call the function to fetch articles when the page loads
+        fetchArticles();
+    </script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="article-title">Article Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Links -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="articles.html">Articles</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Article Section -->
+    <div class="article-container">
+        <article id="article-content">
+            <!-- Article title -->
+            <h1 id="article-title-content">Article Title</h1>
+            <!-- Article meta info: author and date -->
+            <div class="meta">
+                <span id="author"></span> | 
+                <span id="date"></span> | 
+                <span id="read-time"></span> read
+            </div>
+            <!-- Article content -->
+            <div id="article-text"></div>
+        </article>
+
+        <!-- Related Articles Section -->
+        <section id="related-articles">
+            <h2>Related Articles</h2>
+            <ul id="related-articles-list"></ul>
+        </section>
+    </div>
+  
+    <script>
+        // Function to fetch and load the article from the JSON file
+        document.addEventListener("DOMContentLoaded", function() {
+            const articleId = new URLSearchParams(window.location.search).get("id");
+            console.log("Article ID from URL:", articleId); // Debugging log
+    
+            fetch("articles.json")
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Network response was not ok");
+                    }
+                    return response.json();
+                })
+                .then(articles => {
+                    console.log("Articles fetched:", articles); // Debugging log
+    
+                    const article = articles.find(a => a.id === Number(articleId));
+                    console.log("Article found:", article); // Debugging log
+    
+                    if (article) {
+                        // Set the article title
+                        document.getElementById("article-title").textContent = article.title;
+                        document.getElementById("article-title-content").textContent = article.title;
+    
+                        // Set the article meta information
+                        document.getElementById("author").textContent = `By ${article.author}`;
+                        document.getElementById("date").textContent = article.date;
+                        
+                        // Calculate reading time (approx 200 words per minute)
+                        const wordCount = article.content.filter(c => c.type === "paragraph")
+                                                         .map(c => c.text.split(/\s+/).length)
+                                                         .reduce((sum, count) => sum + count, 0);
+                        const readTime = Math.ceil(wordCount / 200);
+                        document.getElementById("read-time").textContent = readTime;
+    
+                        // Set the article content (headings, paragraphs, lists, and tables)
+                        const contentDiv = document.getElementById("article-text");
+                        article.content.forEach(content => {
+                            if (content.type === "heading") {
+                                const heading = document.createElement(`h${content.level}`);
+                                heading.textContent = content.text;
+                                contentDiv.appendChild(heading);
+                            } else if (content.type === "paragraph") {
+                                const p = document.createElement("p");
+                                p.textContent = content.text;
+                                contentDiv.appendChild(p);
+                            } else if (content.type === "list") {
+                                const ul = document.createElement("ul");
+                                content.items.forEach(item => {
+                                    const li = document.createElement("li");
+                                    li.textContent = item;
+                                    ul.appendChild(li);
+                                });
+                                contentDiv.appendChild(ul);
+                            } else if (content.type === "table") {
+                                const table = document.createElement("table");
+                                const thead = document.createElement("thead");
+                                const tr = document.createElement("tr");
+                                content.headers.forEach(header => {
+                                    const th = document.createElement("th");
+                                    th.textContent = header;
+                                    tr.appendChild(th);
+                                });
+                                thead.appendChild(tr);
+                                table.appendChild(thead);
+    
+                                const tbody = document.createElement("tbody");
+                                content.rows.forEach(row => {
+                                    const tr = document.createElement("tr");
+                                    row.forEach(cell => {
+                                        const td = document.createElement("td");
+                                        td.textContent = cell;
+                                        tr.appendChild(td);
+                                    });
+                                    tbody.appendChild(tr);
+                                });
+                                table.appendChild(tbody);
+    
+                                contentDiv.appendChild(table);
+                            }
+                        });
+    
+                        // Set the related articles
+                        const relatedArticlesList = document.getElementById("related-articles-list");
+                        article.related_articles.forEach(related => {
+                            const relatedArticle = articles.find(a => a.id === related.id);
+                            if (relatedArticle) {
+                                const li = document.createElement("li");
+                                const a = document.createElement("a");
+                                a.href = `article-template.html?id=${relatedArticle.id}`;
+                                a.textContent = relatedArticle.title;
+                                li.appendChild(a);
+                                relatedArticlesList.appendChild(li);
+                            }
+                        });
+                    } else {
+                        console.log("No article found with ID:", articleId); // Debugging log
+                    }
+                })
+                .catch(error => {
+                    console.error("Error fetching articles:", error); // Debugging log
+                });
+        });
+    </script>
+    
+</body>
+</html>
