@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    position: relative;
+    width: 120px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card .rank {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .card .suit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hearts, .diamonds {
+    color: red;
+  }
+  
+  .clubs, .spades {
+    color: black;
+  }
+  
+  .joker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+  }
+  
+  .joker span.red {
+    color: red;
+  }
+  
+  .joker span.black {
+    color: black;
+  }
+  
+  input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="date"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #weekResult {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Rainbow color styling for days of the week */
+  .day-o { color: orange; }
+  .day-y { color: yellow; }
+  .day-g { color: green; }
+  .day-b { color: blue; }
+  .day-v { color: violet; }
+  .day-i { color: indigo; }
+  .day-r { color: red; }
+  
+  #zodiacContainer {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #zodiacContainer p {
+    margin: 5px 0;
+    padding: 5px;
+    color: grey;
+    font-family:'poppins',sans-serif;
+  }
+  
+  #zodiacDetailsBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #zodiacDetailsBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  #zodiacDetails {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    text-align: left;
+  }
+  

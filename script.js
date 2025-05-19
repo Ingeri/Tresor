@@ -333,4 +333,23 @@ galleryItems.forEach((item) => {
                 }
             }
         });
+
+// Dropdown menu
+    document.addEventListener('DOMContentLoaded', function () {
+        const toggle = document.querySelector('.dropdown-toggle');
+        const dropdown = document.querySelector('.dropdown-content');
+
+        toggle.addEventListener('click', function (e) {
+            e.preventDefault();
+            dropdown.classList.toggle('show');
+        });
+
+        // Optional: Close dropdown if you click outside
+        document.addEventListener('click', function (e) {
+            if (!toggle.contains(e.target) && !dropdown.contains(e.target)) {
+                dropdown.classList.remove('show');
+            }
+        });
+    });
+
         
