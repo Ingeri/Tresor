@@ -541,6 +541,12 @@
   top: -10px;
 }
 
+.sub-section{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 #resume ul {
   padding-left: 20px;
   list-style: square;
