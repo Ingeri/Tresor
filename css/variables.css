@@ -227,5 +227,5 @@
     --filter-checkbox-input-border-color: #64b5f6;
     --simple-white-color: #2a2a2a;
     --article-link-active-bg-color: #333;
-    --mobile-icon-bg-color: #222;
+    --mobile-icon-bg-color: rgb(224, 221, 224);
   }

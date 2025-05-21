@@ -894,28 +894,41 @@
                     </div>
                     <div class="contact-form">
                         <h2 id="contact-info-h2">Get in Touch</h2>
-                        <form>
+                        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                            <!-- Hidden input to register the form with Netlify -->
+                            <input type="hidden" name="form-name" value="contact">
+                        
+                            <!-- Honeypot for spam bots -->
+                            <p hidden>
+                                <label>Don’t fill this out: <input name="bot-field" /></label>
+                            </p>
+                        
                             <div class="form-group">
                                 <label for="name" data-i18n="contact-get-name">Names</label>
                                 <input type="text" name="name" placeholder="Your Name" required />
                             </div>
-
+                        
                             <div class="form-group">
                                 <label for="email" data-i18n="contact-get-email">Email</label>
                                 <input type="email" name="email" placeholder="Your Email" required />
                             </div>
-
+                        
                             <div class="form-group">
                                 <label for="subject" data-i18n="contact-get-subject">Subject</label>
                                 <input type="text" name="subject" placeholder="Subject" required />
                             </div>
-
+                        
                             <div class="form-group">
                                 <label for="message" data-i18n="contact-get-message">Message</label>
                                 <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
                             </div>
+                        
+                            <!-- Optional: redirect to thank-you page -->
+                            <!-- <input type="hidden" name="_redirect" value="/thank-you.html" /> -->
+                        
                             <button type="submit" data-i18n="contact-button">Send Message</button>
                         </form>
+                          
                     </div>
                 </div>
             </section>

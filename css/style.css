@@ -612,7 +612,7 @@
   }
 
   .service {
-    background-color: #f8f9fa; /* Light grey for contrast */
+   /* background-color: #f8f9fa; /* Light grey for contrast */
     padding: 10px;
   }
 }
