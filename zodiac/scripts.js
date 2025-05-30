@@ -149,60 +149,6 @@ function getSymbol(suit) {
   }
 }
 
-// Function to handle calculation on button click
-function calculateCard() {
-  const dateInput = document.getElementById("dateInput").value;
-  const selectedDate = new Date(dateInput);
-
-  if (!isNaN(selectedDate.getTime())) {
-    // Check if date is valid
-    displayCard(selectedDate);
-  } else {
-    alert("Please enter a valid date.");
-  }
-}
-
-// Add event listener to handle Enter key
-document
-  .getElementById("dateInput")
-  .addEventListener("keydown", function (event) {
-    if (event.key === "Enter") {
-      event.preventDefault(); // Prevent default Enter key action (like form submission)
-      calculateCard(); // Call the function to calculate and display the card
-    }
-  });
-
-// Call the function to display the card for the current date when the page loads
-document.addEventListener("DOMContentLoaded", function () {
-  const today = new Date();
-  displayCard(today);
-});
-
-//
-// Mapping of zodiac signs with date ranges and details
-
-// Function to get zodiac sign based on date
-function getZodiacSign(date) {
-  const month = date.getMonth() + 1;
-  const day = date.getDate();
-  const dateString = `${month < 10 ? "0" + month : month}-${
-    day < 10 ? "0" + day : day
-  }`;
-
-  for (const sign of zodiacSigns) {
-    if (
-      (dateString >= sign.start && dateString <= sign.end) ||
-      (sign.start > sign.end &&
-        (dateString >= sign.start || dateString <= sign.end))
-    ) {
-      return sign;
-    }
-  }
-  return null;
-}
-
-// Function to display zodiac sign
-
 // Add the characteristics to the zodiacSigns array
 const zodiacSigns = [
   {
@@ -355,8 +301,10 @@ function displayZodiacSign(date) {
   const zodiac = getZodiacSign(date);
   if (zodiac) {
     const zodiacDetails = `
+      <div class="zodiac-sign">
       <p>Zodiac Sign: ${zodiac.name} ${zodiac.symbol}</p>
       <button id="zodiacDetailsBtn" data-details='{"element":"${zodiac.element}", "rulingPlanet":"${zodiac.rulingPlanet}", "details":"${zodiac.details}", "characteristics":"${zodiac.characteristics}"}'>More</button>
+      </div>
       <div id="zodiacDetails" style="display:none;">
         <p>Element: ${zodiac.element}</p>
         <p>Ruling Planet: ${zodiac.rulingPlanet}</p>

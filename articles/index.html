@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Articles</title>
+    <link rel="shortcut icon" href="../log.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -52,7 +53,7 @@
 
             filteredArticles.forEach(article => {
                 const articleLink = document.createElement('a');
-                articleLink.href = `article-template.html?id=${article.id}`;
+                articleLink.href = `article/?id=${article.id}`;
                 articleLink.classList.add('article-link');
                 articleLink.textContent = article.title;
 

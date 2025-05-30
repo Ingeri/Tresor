@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="../log.png" type="image/x-icon" />
+</head>
+<body>
+  <div class="studio-container">
+    <h1>AI Studio</h1>
+    <div id="result-area"></div>
+  </div>
+
+  <div class="input-bar">
+    <textarea id="input-text" placeholder="Type your prompt..."></textarea>
+
+    <div class="input-controls">
+      <div class="type-buttons">
+        <button data-type="text" class="type-btn active">Text</button>
+        <button data-type="image" class="type-btn">Image</button>
+        <button data-type="video" class="type-btn">Video</button>
+      </div>
+      <button id="submit-btn">Generate</button>
+    </div>
+  </div>
+
+  <script type="module">
+    import handleText from './text.js';
+    import handleImage from './image.js';
+    import handleVideo from './video.js';
+
+    let currentType = 'text';
+
+    const typeButtons = document.querySelectorAll('.type-btn');
+    typeButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        typeButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentType = btn.dataset.type;
+      });
+    });
+
+    const submitBtn = document.getElementById('submit-btn');
+    const inputText = document.getElementById('input-text');
+    const resultArea = document.getElementById('result-area');
+
+    submitBtn.addEventListener('click', async () => {
+      const prompt = inputText.value.trim();
+      if (!prompt) return;
+
+      const wrapper = document.createElement('div');
+      wrapper.className = 'result-item';
+      wrapper.innerHTML = `<p class="prompt-label">${currentType.toUpperCase()} ➤ ${prompt}</p>Loading...`;
+
+      resultArea.appendChild(wrapper); // append at bottom
+
+      let result = '';
+      if (currentType === 'text') {
+        result = await handleText(prompt);
+      } else if (currentType === 'image') {
+        result = await handleImage(prompt);
+      } else if (currentType === 'video') {
+        result = await handleVideo(prompt);
+      }
+
+      wrapper.innerHTML = `<p class="prompt-label">${currentType.toUpperCase()} ➤ ${prompt}</p>` + result;
+      inputText.value = '';
+    });
+  </script>
+</body>
+</html>
