@@ -1,31 +1,24 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Displaying Playing Card</title>
-    <link rel="shortcut icon" href="../log.png" type="image/x-icon" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <section class="container">
-      <div class="main">
-        <div class="input-container">
-          <label for="dateInput">Enter Date:</label>
-          <input type="date" id="dateInput" />
-          <button onclick="calculateCard()" class="button">Find</button>
-        </div>
-        <div id="cardContainer"></div>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Displaying Playing Card</title>
+  <link rel="shortcut icon" href="../log.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-      <div class="reult-container">
-        <div id="weekResult"></div>
+<body>
+  <div class="input-section">
+    <label for="dateInput">Enter Date:</label>
+    <input type="date" id="dateInput">
+    <button onclick="calculateCard()">Calculate Card</button>
+  </div>
+  <div id="cardContainer"></div>
+  <div id="weekResult"></div>
+  <div id="zodiacContainer" class="zodiacContainer"></div>
 
-        <div id="zodiacContainer"></div>
-        <div id="zodiacDetails" style="display: none"></div>
-      </div>
-    </section>
+  <script src="scripts.js"></script>
+</body>
 
-    <script src="scripts.js"></script>
-  </body>
 </html>

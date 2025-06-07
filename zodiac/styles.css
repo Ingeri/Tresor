@@ -1,34 +1,16 @@
 *{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
-  color: #333;
+  box-sizing: border-box;
 }
-
-.container {
-  width: 100%;
-  display: flex;
-  height: 100vh;
-}
-
-.main {
-  flex: 0 auto;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
   padding: 20px;
-  background-color: aliceblue;
-}
-
-.reult-container{
-  flex: 1;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
-}
-
-.input-container {
-  display: flex;
- justify-content: center;
-  margin-bottom: 20px;
 }
 
 #cardContainer {
@@ -40,8 +22,8 @@
 
 .card {
   position: relative;
-  width: 240px;
-  height: 360px;
+  width: 120px;
+  height: 180px;
   margin: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -50,18 +32,17 @@
   font-size: 24px;
   font-weight: bold;
   transition: transform 0.2s, box-shadow 0.2s;
-  user-select: none;
 }
 
 .card:hover {
-  transform: scale(1.01);
+  transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .card .rank {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 5px;
+  right: 5px;
 }
 
 .card .suit {
@@ -69,16 +50,13 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 5rem;
 }
 
-.hearts,
-.diamonds {
+.hearts, .diamonds {
   color: red;
 }
 
-.clubs,
-.spades {
+.clubs, .spades {
   color: black;
 }
 
@@ -97,86 +75,40 @@
   color: black;
 }
 
-input[type="date"] {
-  padding: 8px 10px;
- /* border: 1px solid #ccc;  */
-  /* border-radius: 5px; */
-  font-size: 16px;
-  border: 0;
-  /* margin-right: 10px; */
-  transition: border-color 0.3s;
-}
-
-input[type="date"]:focus {
-  border-color: #007bff;
-  outline: none;
-}
-
-label {
-  font-size: 16px;
-  color: #333;
-  padding: 10px;
-  border-radius: 10px 0  0 10px;
-  background-color: white;
-}
-
-.button {
-  padding: 10px 20px;
-  font-size: 16px;
-  color: white;
-  background-color: #007bff;
-  border: none;
-  /* border-radius: 5px; */
-  cursor: pointer;
-  transition: background-color 0.3s;
-  border-radius: 0 10px 10px 0;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-#weekResult {
-  margin-top: 20px;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-}
-
 /* Rainbow color styling for days of the week */
-.day-o {
-  color: orange;
-}
-.day-y {
-  color: yellow;
-}
-.day-g {
-  color: green;
-}
-.day-b {
-  color: blue;
-}
-.day-v {
-  color: violet;
-}
-.day-i {
-  color: indigo;
-}
-.day-r {
-  color: red;
-}
+.day-o { color: orange; }
+.day-y { color: yellow; }
+.day-g { color: green; }
+.day-b { color: blue; }
+.day-v { color: violet; }
+.day-i { color: indigo; }
+.day-r { color: red; }
 
-#zodiacContainer {
+.zodiacContainer {
   margin-top: 20px;
-  font-size: 18px;
-  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  background-color: #004c99;
 }
 
-#zodiacContainer p {
-  margin: 5px 0;
-  padding: 5px;
-  color: grey;
-  font-family: "poppins", sans-serif;
+.zodiac-sign-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #003366;
+  padding-right: 20px;
+}
+
+.zodiac-sign-top p {
+  flex: 1;
+  color: white;
+  font-size: 24px;
+  padding: 0 20px;
 }
 
 #zodiacDetailsBtn {
@@ -204,7 +136,57 @@ button:hover {
   text-align: left;
 }
 
-.zodiac-sign{
-  display: flex;
-  justify-content: center;
-}
+
+/* <style> */
+  .input-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .input-section label {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #333;
+    padding-left: 1rem;
+    border-width: 1px 0 1px 1px;
+    border-color: #ccc;
+    border-style: solid;
+    padding: 1rem;
+    border-radius: 6px 0 0 6px;
+  }
+
+  .input-section input[type="date"] {
+    padding: 0.94rem 0.6rem;
+    font-size: 1rem;
+    border-width: 1px 0;
+    border-color: #ccc;
+    border-style: solid;
+    flex: 1;
+  }
+
+  .input-section button {
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-width: 1px 1px 1px 0;
+    border-color: #ccc;
+    border-style: solid;
+  }
+
+  .input-section button:hover {
+    background-color: #004c99;
+  }
+/* </style> */

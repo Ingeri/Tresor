@@ -1,0 +1,916 @@
+[
+  {
+    "name": "Aries",
+    "symbol": "♈",
+    "dateRange": "March 21 – April 19",
+    "element": "Fire",
+    "modality": "Cardinal",
+    "rulingPlanet": "Mars",
+    "symbolMeaning": "The Ram (a bold, headfirst climber and fighter)",
+    "coreTraits": {
+      "strengths": [
+        "Bold & courageous",
+        "Energetic & driven",
+        "Natural leader",
+        "Adventurous & spontaneous",
+        "Confident & pioneering"
+      ],
+      "challenges": [
+        "Impulsive & impatient",
+        "Quick to anger",
+        "Tends to dominate conversations",
+        "Can be selfish or inconsiderate",
+        "Easily bored or distracted"
+      ],
+      "description": "Aries is the trailblazer of the zodiac — always ready to charge into new territory without waiting for approval. They embody the 'I AM' principle — identity, selfhood, and initiation."
+    },
+    "planetInfluence": {
+      "planet": "Mars",
+      "influence": [
+        "Warrior energy",
+        "Competitive spirit",
+        "Passionate action",
+        "A love for challenges and even confrontation"
+      ],
+      "description": "This makes Aries assertive, passionate, and fearless — but also prone to rash decisions and heated reactions."
+    },
+    "modalityElement": {
+      "description": "As a cardinal fire sign, Aries is the spark of new life — initiator of the zodiac year (Spring Equinox). They are born leaders who don’t follow others and are often the first to speak, move, decide, or create."
+    },
+    "career": {
+      "description": "Aries thrives in fast-paced, competitive environments. Their best qualities at work include:",
+      "qualities": [
+        "Confidence: Will take charge and motivate others",
+        "Efficiency: Cuts through nonsense and gets things done",
+        "Innovation: Constantly seeks new ways to solve old problems"
+      ],
+      "idealCareers": [
+        "Entrepreneurs",
+        "Athletes",
+        "Military",
+        "Firefighters",
+        "Emergency responders",
+        "Politicians"
+      ],
+      "note": "They don’t like micromanagement, and they lose motivation in slow, repetitive roles."
+    },
+    "relationships": {
+      "style": [
+        "Passionate and intensely romantic",
+        "Direct — they make the first move",
+        "Loyal but needs space and excitement",
+        "Attracted to partners who challenge them intellectually or energetically"
+      ],
+      "bestMatches": ["Leo", "Sagittarius", "Gemini", "Aquarius"],
+      "description": "They are drawn to confident, independent partners who can stand their ground."
+    },
+    "shadowSide": [
+      "Can be reckless, reacting without thinking",
+      "Often struggles with patience",
+      "Tends to start projects but not finish them",
+      "Might overstep others' boundaries in their push to lead"
+    ],
+    "spiritualAdvice": [
+      "Practice patience: Slow down to see the full picture",
+      "Learn humility: Leadership also means listening",
+      "Channel anger constructively through physical activity or creative expression",
+      "Develop endurance: Stick with things that take time to grow"
+    ],
+    "mythology": "Aries is tied to the Golden Ram of Greek mythology, who saved Phrixus and Helle and whose golden fleece became a prize in the legend of Jason and the Argonauts. This links Aries to bravery, sacrifice, and divine mission — the idea of being called to act decisively.",
+    "summary": "Aries, the fiery pioneer ruled by Mars, embodies boldness, courage, and relentless drive. As a cardinal fire sign, Aries leads with enthusiasm and a pioneering spirit, always eager to initiate new ventures and blaze trails. Their directness and passion make them natural leaders who inspire action and change. However, Aries can sometimes act impulsively or struggle with patience, which means learning discipline and strategic thinking is important for their growth. Their energy is best channeled through purposeful endeavors that combine their pioneering zeal with thoughtful planning. In a forward-looking sense, Aries represents the spark that ignites progress. Their willingness to take risks and challenge the status quo is vital in an ever-changing world. When balanced with reflection and endurance, Aries can achieve lasting impact while maintaining respect for tradition’s lessons."
+  },
+  {
+    "name": "Taurus",
+    "symbol": "♉",
+    "dateRange": "April 20 – May 20",
+    "element": "Earth",
+    "modality": "Fixed",
+    "rulingPlanet": "Venus",
+    "symbolMeaning": "The Bull (symbolizing strength, determination, and groundedness)",
+    "coreTraits": {
+      "strengths": [
+        "Patient & dependable",
+        "Practical & methodical",
+        "Sensual & pleasure-loving",
+        "Loyal & devoted",
+        "Grounded & steady"
+      ],
+      "challenges": [
+        "Stubborn & resistant to change",
+        "Possessive & sometimes jealous",
+        "Can be materialistic",
+        "Prone to indulgence & laziness",
+        "Sometimes overly cautious"
+      ],
+      "description": "Taurus is the pillar of consistency — valuing security, comfort, and tangible results over fleeting trends. They prize the pleasures of the physical world and seek to build lasting foundations."
+    },
+    "planetInfluence": {
+      "planet": "Venus",
+      "influence": [
+        "Sensory experiences (taste, touch, smell, sound)",
+        "Art, music, and nature’s beauty",
+        "The desire for comfort and luxury"
+      ],
+      "description": "This gives Taurus a refined appreciation for quality and a natural talent for cultivating beauty in life."
+    },
+    "modalityElement": {
+      "description": "As a fixed earth sign, Taurus is extremely persistent and reliable. They are slow to adapt but once committed, unwavering. They are builders and conservers, focused on stability rather than change, valuing routine — but not monotony."
+    },
+    "career": {
+      "description": "Taurus excels in careers that reward patience, persistence, and attention to detail.",
+      "qualities": [
+        "Steadiness and discipline",
+        "Practical problem-solving",
+        "Eye for quality and beauty"
+      ],
+      "idealCareers": [
+        "Finance, banking, and investments",
+        "Agriculture and horticulture",
+        "Art, design, and craftsmanship",
+        "Culinary arts and hospitality"
+      ],
+      "note": "They prefer stable work environments where they can develop expertise and see long-term results."
+    },
+    "relationships": {
+      "style": [
+        "Devoted, sensual, and deeply loyal",
+        "Values security and predictability",
+        "Expresses love through physical touch, gifts, and shared comfort",
+        "Protective and nurturing once committed"
+      ],
+      "bestMatches": ["Virgo", "Capricorn", "Cancer", "Pisces"],
+      "description": "Taurus seeks stable, affectionate partners who offer emotional depth and shared values of security."
+    },
+    "shadowSide": [
+      "Can be overly stubborn and resistant to necessary change",
+      "May become possessive or jealous",
+      "Sometimes indulgent to the point of laziness or overconsumption",
+      "Can prioritize material wealth and comfort over emotional growth"
+    ],
+    "spiritualAdvice": [
+      "Practice flexibility — be open to new ideas and changes",
+      "Develop self-discipline to manage indulgence",
+      "Cultivate gratitude for the present moment",
+      "Spend time in nature to ground and refresh energy"
+    ],
+    "mythology": "Taurus is linked to the sacred bull imagery found in many ancient cultures—representing fertility, strength, and steadfastness. In Greek myth, the bull is associated with Zeus, who transformed into a bull to abduct Europa, symbolizing power and seduction.",
+    "summary": "Taurus is the embodiment of stability, patience, and sensuality. Ruled by Venus and grounded in the Earth element, Tauruses value security, comfort, and the tangible pleasures of life. They build their lives with a steady hand, appreciating the wisdom of tradition and the rewards of persistent effort. Known for their reliability and practicality, Tauruses approach life methodically and are often resistant to change, preferring slow, measured progress. Their challenge is to remain open to innovation without sacrificing the stability and values they cherish. Taurus' strength lies in bridging the past and future by creating durable foundations that incorporate new ideas thoughtfully. Their ability to nurture and sustain growth ensures that progress is meaningful and lasting."
+  },
+  {
+    "name": "Gemini",
+    "symbol": "♊",
+    "dateRange": "May 21 – June 20",
+    "element": "Air",
+    "modality": "Mutable",
+    "rulingPlanet": "Mercury",
+    "symbolMeaning": "The Twins (representing duality, adaptability, and communication)",
+    "coreTraits": {
+      "strengths": [
+        "Curious & quick-witted",
+        "Adaptable & versatile",
+        "Communicative & sociable",
+        "Intellectual & analytical",
+        "Youthful & energetic"
+      ],
+      "challenges": [
+        "Restless & easily bored",
+        "Indecisive & inconsistent",
+        "Superficial or scattered focus",
+        "Can be nervous or anxious",
+        "Tendency to gossip or be manipulative"
+      ],
+      "description": "Geminis are the natural communicators of the zodiac, gifted at gathering and sharing information. Their dual nature allows them to see many sides of any situation."
+    },
+    "planetInfluence": {
+      "planet": "Mercury",
+      "influence": [
+        "A lightning-fast mind",
+        "Excellent verbal and written skills",
+        "Love for learning and exchanging ideas",
+        "An agile, curious nature"
+      ],
+      "description": "While Mercury also rules Virgo, Gemini channels Mercury’s energy into social connection and exploration."
+    },
+    "modalityElement": {
+      "description": "As a mutable air sign, Gemini is highly adaptable and change-friendly, skilled at juggling multiple interests and ideas, and often a bridge between people or viewpoints."
+    },
+    "career": {
+      "description": "Geminis flourish in careers involving communication and variety.",
+      "qualities": [
+        "Expressive and persuasive",
+        "Multi-taskers who love mental challenges",
+        "Tech-savvy and innovative"
+      ],
+      "idealCareers": [
+        "Writing, journalism, and public relations",
+        "Sales and marketing",
+        "Teaching and education",
+        "Technology and media"
+      ],
+      "note": "Routine and repetition bore Gemini quickly; they need variety and social interaction to stay engaged."
+    },
+    "relationships": {
+      "style": [
+        "Playful and flirtatious",
+        "Needing intellectual connection as much as emotional",
+        "Prefers relationships that allow freedom and growth",
+        "May struggle with commitment or seeming inconsistent"
+      ],
+      "bestMatches": ["Libra", "Aquarius", "Aries", "Leo"],
+      "description": "Geminis are attracted to partners who can keep up mentally and respect their need for independence."
+    },
+    "shadowSide": [
+      "Can become superficial by spreading themselves too thin",
+      "May struggle with commitment and follow-through",
+      "Sometimes prone to nervousness and anxiety due to overthinking",
+      "Can be seen as gossipy or manipulative if not careful"
+    ],
+    "spiritualAdvice": [
+      "Practice mindfulness and focus to calm restless thoughts",
+      "Develop emotional depth alongside intellectual agility",
+      "Use communication skills for positive influence and truth",
+      "Embrace routine occasionally to ground shifting energies"
+    ],
+    "mythology": "Gemini’s symbol, the Twins, often refers to Castor and Pollux, the Dioscuri brothers from Greek mythology. They represent duality, brotherhood, and protection. Castor was mortal, Pollux immortal, symbolizing Gemini’s blend of human curiosity and higher intellect.",
+    "summary": "Gemini is the curious, adaptable communicator ruled by Mercury, energized by the Air element. Known for their quick wit and versatility, Geminis thrive on mental stimulation and social interaction. They are skilled at juggling multiple interests and ideas, connecting diverse concepts with ease. Geminis sometimes struggle with consistency and depth, as their restless nature drives them to constantly explore new avenues. Learning to focus and balance curiosity with commitment is essential for harnessing their full potential. In the evolving landscape of the future, Gemini’s strength lies in their adaptability and communication skills. Their ability to absorb and disseminate information rapidly makes them natural connectors and innovators, perfectly suited to a fast-paced, interconnected world that values knowledge exchange."
+  },
+  {
+    "name": "Cancer",
+    "symbol": "♋",
+    "dateRange": "June 21 – July 22",
+    "element": "Water",
+    "modality": "Cardinal",
+    "rulingPlanet": "Moon",
+    "symbolMeaning": "The Crab (representing protection, emotional depth, and cyclical renewal)",
+    "coreTraits": {
+      "strengths": [
+        "Intuitive & empathetic",
+        "Loyal & protective",
+        "Caring & nurturing",
+        "Imaginative & creative",
+        "Strongly connected to home & family"
+      ],
+      "challenges": [
+        "Moody & overly sensitive",
+        "Can be clingy or insecure",
+        "Tends to retreat or avoid conflict",
+        "Holds onto past hurts",
+        "Can be defensive or passive-aggressive"
+      ],
+      "description": "Cancer is the emotional anchor of the zodiac, carrying deep feelings and an unshakable bond to family and tradition."
+    },
+    "planetInfluence": {
+      "planet": "Moon",
+      "influence": [
+        "Intuition and subconscious feelings",
+        "Cycles and rhythms of life",
+        "Maternal instincts and nurturing energy"
+      ],
+      "description": "This lunar influence makes Cancer highly sensitive to environments and others’ emotions."
+    },
+    "modalityElement": {
+      "description": "As a cardinal water sign, Cancer initiates emotional connections and protects loved ones, leading with empathy and deep care. They are motivated to create safe emotional spaces and can be both resilient and deeply vulnerable."
+    },
+    "career": {
+      "description": "Cancers excel in roles that allow them to nurture, protect, and connect emotionally.",
+      "qualities": [
+        "Caregiving professions (nursing, social work, counseling)",
+        "Education and childcare",
+        "Food and hospitality industries",
+        "Creative fields (writing, art, music) where emotion can be expressed"
+      ],
+      "note": "They prefer workplaces that feel safe, familiar, and respectful."
+    },
+    "relationships": {
+      "style": [
+        "Devoted and protective partners",
+        "Express love through care, loyalty, and emotional support",
+        "May take time to open up but form strong, lasting bonds",
+        "Desire family and home-centered relationships"
+      ],
+      "bestMatches": ["Taurus", "Virgo", "Scorpio", "Pisces"],
+      "description": "Cancer needs partners who honor their feelings and build a secure emotional foundation."
+    },
+    "shadowSide": [
+      "Can become overly protective or controlling",
+      "Sometimes withdraws into a shell when hurt or scared",
+      "Holds onto resentments or past pain too long",
+      "May struggle with mood swings and insecurity"
+    ],
+    "spiritualAdvice": [
+      "Cultivate emotional boundaries to avoid burnout",
+      "Practice self-compassion and forgive past wounds",
+      "Engage in creative outlets to channel feelings positively",
+      "Spend time in nature or near water to recharge and soothe the soul"
+    ],
+    "mythology": "Cancer is linked to the giant crab sent by Hera in the myth of Hercules. Though crushed during Hercules’ fight with the Hydra, Hera honored its effort by placing it in the sky as a constellation, reflecting Cancer’s tenacity, loyalty, and protective nature.",
+    "summary": "Cancer, ruled by the Moon and deeply tied to the Water element, is the zodiac’s nurturer. Emotionally intuitive, caring, and protective, they prioritize home, family, and emotional security. While deeply loyal, Cancer’s sensitivity can lead to moodiness or withdrawal when threatened. Balancing emotional openness with healthy boundaries is key. Forward-thinking Cancer honors tradition through emotional legacy and community building, creating safe spaces and fostering connections in an evolving world."
+  },
+  {
+    "name": "Leo",
+    "symbol": "♌",
+    "dateRange": "July 23 – August 22",
+    "element": "Fire",
+    "modality": "Fixed",
+    "rulingPlanet": "Sun",
+    "symbolMeaning": "The Lion (representing courage, pride, and regal authority)",
+    "coreTraits": {
+      "strengths": [
+        "Confident & charismatic",
+        "Generous & warm-hearted",
+        "Creative & passionate",
+        "Loyal & protective",
+        "Natural leader & inspiring"
+      ],
+      "challenges": [
+        "Can be arrogant or egotistical",
+        "Sometimes dramatic or attention-seeking",
+        "Stubborn & inflexible",
+        "May struggle with criticism",
+        "Can be controlling or prideful"
+      ],
+      "description": "Leo is the natural-born leader of the zodiac, radiating energy and enthusiasm that draws people in."
+    },
+    "planetInfluence": {
+      "planet": "Sun",
+      "influence": [
+        "Vitality, life force, and identity",
+        "Creativity and self-expression",
+        "Leadership and authority",
+        "Warmth, generosity, and magnanimity"
+      ],
+      "description": "The Sun’s central position in the solar system mirrors Leo’s role as a center of attention and power in social settings."
+    },
+    "modalityElement": {
+      "description": "As a fixed fire sign, Leo is steadfast and determined, committed to their vision and goals. They are energetic and vibrant, yet steady and reliable in loyalty."
+    },
+    "career": {
+      "description": "Leos thrive in roles that allow them to shine and lead.",
+      "qualities": [
+        "Performing arts, entertainment, and creative industries",
+        "Leadership and management positions",
+        "Entrepreneurship and public speaking",
+        "Teaching and mentoring roles"
+      ],
+      "note": "Leos seek recognition for their efforts and flourish when inspiring others."
+    },
+    "relationships": {
+      "style": [
+        "Passionate, generous, and romantic",
+        "Loving with grand gestures and warmth",
+        "Loyal and protective",
+        "Needs admiration and appreciation to feel fulfilled"
+      ],
+      "bestMatches": ["Aries", "Sagittarius", "Gemini", "Libra"],
+      "description": "Leos are attracted to partners who appreciate their vitality and give them space to express their grand nature."
+    },
+    "shadowSide": [
+      "Can be vain and crave constant admiration",
+      "May become domineering or stubborn",
+      "Sometimes struggles with ego clashes and pride",
+      "Can react dramatically to criticism or perceived slights"
+    ],
+    "spiritualAdvice": [
+      "Practice humility and listen to others’ perspectives",
+      "Channel creative energy into meaningful projects",
+      "Cultivate patience and empathy in relationships",
+      "Use leadership qualities to uplift and empower others"
+    ],
+    "mythology": "Leo is linked to the Nemean Lion from Greek mythology—a fierce beast defeated by Hercules during his twelve labors. The lion’s invulnerable hide symbolized strength and courage, while its eventual defeat signified triumph through bravery and perseverance.",
+    "summary": "Leo, ruled by the Sun and fueled by Fire, is the zodiac’s radiant leader and performer. Known for warmth, confidence, and creativity, Leos attract attention and inspire with enthusiasm. They take pride in individuality and seek to shine through self-expression and generosity. Though sometimes ego-driven, they grow by embracing humility and collaboration. Forward-looking, Leo’s passion and vision motivate communities and spark innovation, balancing authenticity with collective well-being."
+  },
+  {
+    "name": "Virgo",
+    "symbol": "♍",
+    "dateRange": "August 23 – September 22",
+    "element": "Earth",
+    "modality": "Mutable",
+    "rulingPlanet": "Mercury",
+    "symbolMeaning": "The Maiden (often depicted holding a sheaf of wheat, symbolizing harvest, service, and wisdom)",
+    "coreTraits": {
+      "strengths": [
+        "Analytical & detail-oriented",
+        "Practical & reliable",
+        "Intelligent & methodical",
+        "Hardworking & diligent",
+        "Helpful & service-minded"
+      ],
+      "challenges": [
+        "Can be overly critical or perfectionist",
+        "Sometimes overly cautious or anxious",
+        "Tends to worry or overthink",
+        "Can be self-critical",
+        "May struggle with delegating tasks"
+      ],
+      "description": "Virgo embodies the spirit of service, precision, and improvement, valuing clarity and practicality."
+    },
+    "planetInfluence": {
+      "planet": "Mercury",
+      "influence": [
+        "Sharp mental abilities and strong reasoning skills",
+        "Focus on details and organization",
+        "Quick adaptability in thought and method",
+        "Tendency to seek perfection in all tasks"
+      ],
+      "description": "Mercury, the planet of communication, intellect, and analysis, rules Virgo, enhancing its sharp intellect and attention to detail."
+    },
+    "modalityElement": {
+      "description": "As a mutable earth sign, Virgo is adaptable and flexible with practical grounding. They focus on refining systems, health, routine, and daily productivity."
+    },
+    "career": {
+      "description": "Virgos excel in roles requiring attention to detail, organization, and service.",
+      "qualities": [
+        "Healthcare, nursing, and wellness professions",
+        "Editing, writing, and research",
+        "Accounting, data analysis, and quality control",
+        "Administration and project management"
+      ],
+      "note": "Virgos value workplaces where precision and reliability are paramount."
+    },
+    "relationships": {
+      "style": [
+        "Loyal and dependable partners",
+        "Express love through practical support and acts of service",
+        "May be reserved or cautious initially",
+        "Value honesty and clear communication"
+      ],
+      "bestMatches": ["Taurus", "Capricorn", "Cancer", "Scorpio"],
+      "description": "Virgo looks for partners who appreciate their meticulous care and steady devotion."
+    },
+    "shadowSide": [
+      "Can be overly critical of self and others",
+      "Tendency toward anxiety and overthinking",
+      "May struggle with rigidity or inflexibility",
+      "Prone to perfectionism that hampers progress"
+    ],
+    "spiritualAdvice": [
+      "Practice self-compassion and forgiveness",
+      "Embrace imperfection as part of growth",
+      "Balance work with rest and mindfulness",
+      "Use organization to serve higher purpose, not just control"
+    ],
+    "mythology": "Virgo is often associated with Demeter, the Greek goddess of the harvest, or Astraea, the virgin goddess of justice and purity. These myths emphasize Virgo’s themes of service, purity, and nurturing the earth’s bounty.",
+    "summary": "Virgo, ruled by Mercury and grounded in Earth, represents precision, service, and refinement. Analytical and diligent, Virgos pursue excellence in practical ways and value clarity and order. While their perfectionism can challenge them, Virgo’s strength lies in adaptability and devotion to improving themselves and their environment. Looking forward, Virgo combines tradition with innovation in daily life, emphasizing thoughtful progress and meaningful contribution."
+  },
+  {
+    "name": "Libra",
+    "symbol": "♎",
+    "dateRange": "September 23 – October 22",
+    "element": "Air",
+    "modality": "Cardinal",
+    "rulingPlanet": "Venus",
+    "symbolMeaning": "The Scales (representing balance, justice, and fairness)",
+    "coreTraits": {
+      "strengths": [
+        "Diplomatic & charming",
+        "Fair-minded & just",
+        "Social & gracious",
+        "Idealistic & cooperative",
+        "Artistic & refined taste"
+      ],
+      "challenges": [
+        "Indecisive & avoids confrontation",
+        "Can be people-pleasing",
+        "Sometimes superficial",
+        "Struggles with making firm choices",
+        "Can be passive-aggressive"
+      ],
+      "description": "Libra seeks equilibrium in all areas of life, from relationships to surroundings, striving to create peace and beauty wherever they go."
+    },
+    "venusAndLibra": {
+      "description": "Like Taurus, Libra is ruled by Venus, the planet of love, beauty, and aesthetics. This connection bestows Libras with:",
+      "qualities": [
+        "A strong appreciation for art, harmony, and elegance",
+        "A desire for meaningful relationships and social connection",
+        "A natural charm that draws others in"
+      ]
+    },
+    "cardinalAirSign": {
+      "description": "As a cardinal air sign, Libra is:",
+      "qualities": [
+        "Initiating social interactions and new partnerships",
+        "Motivated by ideas of fairness, justice, and diplomacy",
+        "Skilled at balancing multiple perspectives",
+        "Driven to create harmony in their environment"
+      ]
+    },
+    "work": {
+      "description": "Libras excel in careers that involve negotiation, aesthetics, and people skills:",
+      "fields": [
+        "Law, mediation, and diplomacy",
+        "Art, design, fashion, and interior decorating",
+        "Counseling and social work",
+        "Public relations and customer service"
+      ],
+      "note": "They thrive in cooperative environments where fairness and creativity are valued."
+    },
+    "loveAndRelationships": {
+      "description": "In love, Libra is:",
+      "traits": [
+        "Romantic and affectionate, valuing partnership deeply",
+        "Seeks balance and harmony with their partner",
+        "Often puts others’ needs first, sometimes to their own detriment",
+        "Prefers peaceful, drama-free relationships"
+      ],
+      "bestMatches": [
+        "Gemini & Aquarius (Air signs — intellectual connection and shared social interests)",
+        "Leo & Sagittarius (Fire signs — warmth and enthusiasm complement Libra’s grace)"
+      ],
+      "summary": "Libras want partners who appreciate beauty, fairness, and emotional balance."
+    },
+    "shadowSide": [
+      "Can be overly indecisive, fearing conflict and displeasure",
+      "Sometimes sacrifices own needs to keep peace",
+      "May appear superficial by avoiding deeper issues",
+      "Can harbor passive-aggressive tendencies when upset"
+    ],
+    "growthAndSpiritualAdvice": [
+      "Practice decisiveness and trust your inner voice",
+      "Cultivate healthy boundaries in relationships",
+      "Embrace imperfect harmony instead of chasing ideal balance",
+      "Use artistic pursuits to express and process emotions"
+    ],
+    "mythologicalAndSymbolicRoots": "Libra’s scales symbolize justice and fairness, often linked to Themis, the Greek Titaness of divine law and order. The scales represent equilibrium, weighing right and wrong, truth and fairness. This reflects Libra’s eternal quest to create balance in the human and cosmic order.",
+    "summary": "Libra is the zodiac’s diplomat, ruled by Venus and an Air sign that values balance, harmony, and fairness. Libras excel at seeing multiple perspectives and fostering cooperation, making them natural peacemakers and social connectors. They appreciate beauty and seek equilibrium in relationships and environments. However, their desire for peace can sometimes lead to indecision or people-pleasing, making it important for them to assert their own needs and values clearly. Looking forward, Libra’s role as mediator and bridge-builder will grow in importance in increasingly complex social landscapes. Their skill in balancing tradition with change will help cultivate fair and sustainable progress."
+  },
+  {
+    "name": "Scorpio",
+    "symbol": "♏",
+    "dateRange": "October 23 – November 21",
+    "element": "Water",
+    "modality": "Fixed",
+    "rulingPlanets": ["Pluto (modern)", "Mars (traditional)"],
+    "symbolMeaning": "The Scorpion (representing transformation, intensity, and resilience)",
+    "coreTraits": {
+      "strengths": [
+        "Passionate & determined",
+        "Intuitive & perceptive",
+        "Loyal & protective",
+        "Brave & resourceful",
+        "Deeply emotional & transformative"
+      ],
+      "challenges": [
+        "Jealous & secretive",
+        "Can be vengeful or obsessive",
+        "Tends to be controlling",
+        "Sometimes distrustful",
+        "Prone to emotional extremes"
+      ],
+      "description": "Scorpio embodies depth, power, and transformation, often diving into the unseen and hidden aspects of life with courage and intensity."
+    },
+    "plutoAndMarsInScorpio": {
+      "description": "Pluto, the planet of transformation, death, and rebirth, governs Scorpio’s ability to regenerate and evolve through crisis. It drives Scorpio’s fascination with the mysteries of life and power dynamics. Mars, traditionally ruling Scorpio, adds assertiveness, courage, and a warrior spirit. This dual rulership gives Scorpio a unique blend of primal energy and profound insight."
+    },
+    "fixedWaterSign": {
+      "description": "As a fixed water sign, Scorpio is:",
+      "qualities": [
+        "Emotionally intense and steady",
+        "Highly focused and determined",
+        "Resistant to change unless it serves deep growth",
+        "Protective of themselves and loved ones"
+      ]
+    },
+    "work": {
+      "description": "Scorpios thrive in careers that require investigation, strategy, and transformation:",
+      "fields": [
+        "Psychology, therapy, or counseling",
+        "Research, detective work, or forensics",
+        "Surgery, healing, or alternative medicine",
+        "Finance and investments (due to intuition about hidden factors)",
+        "Roles involving crisis management or power dynamics"
+      ],
+      "note": "They prefer work where they can dive deeply and wield influence."
+    },
+    "loveAndRelationships": {
+      "description": "Scorpio loves with profound intensity:",
+      "traits": [
+        "Fiercely loyal and protective partners",
+        "Deep emotional and physical connection seekers",
+        "Can be possessive or jealous due to deep attachment",
+        "Prefers honesty and emotional authenticity"
+      ],
+      "bestMatches": [
+        "Cancer & Pisces (Water signs — emotional depth and intuitive bonds)",
+        "Virgo & Capricorn (Earth signs — grounding Scorpio’s intensity with stability)"
+      ],
+      "summary": "Scorpio needs a partner who respects their emotional depth and intensity."
+    },
+    "shadowSide": [
+      "Can be secretive and hard to read",
+      "May hold grudges and seek revenge",
+      "Struggles with control issues and emotional extremes",
+      "Tendency toward obsession or manipulation if insecure"
+    ],
+    "growthAndSpiritualAdvice": [
+      "Practice emotional honesty and vulnerability",
+      "Learn to release grudges and past pain",
+      "Channel intense energy into creative or transformative pursuits",
+      "Use meditation or shadow work to understand and integrate darker aspects"
+    ],
+    "mythologicalAndSymbolicRoots": "Scorpio is associated with the myth of Orion, the great hunter who was killed by a scorpion sent by Gaia or Artemis. The scorpion’s sting was deadly, symbolizing Scorpio’s power to wound but also to heal through transformation. The sign embodies the cycle of death and rebirth, shedding old layers to emerge stronger.",
+    "summary": "Scorpio, ruled by Pluto and Mars, is the intense and transformative Water sign. Known for emotional depth, resilience, and a powerful will, Scorpios are often drawn to uncovering hidden truths and embracing change at profound levels. They embody mystery and strength, with a keen sense of intuition. Scorpios can be secretive or possessive, and their challenge is to channel their intensity into positive transformation rather than control or suspicion. In the modern world, Scorpio’s gift is renewal. Their ability to regenerate and evolve through crises equips them to lead deep, meaningful change that honors the cycles of life and death, tradition and innovation."
+  },
+  {
+    "name": "Sagittarius",
+    "symbol": "♐",
+    "dateRange": "November 22 – December 21",
+    "element": "Fire",
+    "modality": "Mutable",
+    "rulingPlanet": "Jupiter",
+    "symbolMeaning": "The Archer (a centaur aiming an arrow skyward, symbolizing aspiration and quest for knowledge)",
+    "coreTraits": {
+      "strengths": [
+        "Optimistic & enthusiastic",
+        "Independent & freedom-loving",
+        "Honest & straightforward",
+        "Intellectual & philosophical",
+        "Adventurous & open-minded"
+      ],
+      "challenges": [
+        "Impulsive & tactless",
+        "Can be restless and impatient",
+        "Sometimes blunt or insensitive",
+        "Struggles with commitment",
+        "Can be irresponsible"
+      ],
+      "description": "Sagittarius embodies the quest for meaning, freedom, and higher understanding, always aiming toward new horizons."
+    },
+    "jupiterAndSagittarius": {
+      "description": "Jupiter, the largest planet in the solar system, governs Sagittarius. It represents:",
+      "qualities": [
+        "Expansion, growth, and abundance",
+        "Wisdom, philosophy, and higher learning",
+        "Luck and optimism"
+      ],
+      "note": "This influence gives Sagittarians a broad perspective and a thirst for knowledge."
+    },
+    "mutableFireSign": {
+      "description": "As a mutable fire sign, Sagittarius is:",
+      "qualities": [
+        "Adaptable and flexible",
+        "Always seeking growth and change",
+        "Energetic and enthusiastic, sometimes scattered",
+        "Inspires others with their vision and positivity"
+      ]
+    },
+    "work": {
+      "description": "Sagittarius excels in careers that allow freedom, travel, and intellectual exploration:",
+      "fields": [
+        "Teaching, academia, or philosophy",
+        "Travel, tourism, and cultural exchange",
+        "Journalism, writing, and publishing",
+        "Outdoor and adventure-related careers",
+        "Roles involving innovation and big-picture thinking"
+      ],
+      "note": "They prefer work that aligns with their values and offers variety."
+    },
+    "loveAndRelationships": {
+      "description": "In relationships, Sagittarius:",
+      "traits": [
+        "Values freedom and honesty above all",
+        "Seeks partners who are adventurous and open-minded",
+        "Can struggle with emotional intimacy and commitment",
+        "Loves fun, exploration, and shared experiences"
+      ],
+      "bestMatches": [
+        "Aries & Leo (Fire signs — shared passion and energy)",
+        "Libra & Aquarius (Air signs — intellectual stimulation and social connection)"
+      ],
+      "summary": "Sagittarius thrives with partners who encourage their independence and love to explore life together."
+    },
+    "shadowSide": [
+      "Can be blunt or insensitive in speech",
+      "May avoid emotional depth and commitment",
+      "Prone to restlessness and escapism",
+      "Sometimes overly optimistic, ignoring practical realities"
+    ],
+    "growthAndSpiritualAdvice": [
+      "Practice mindfulness to balance impulsiveness",
+      "Develop deeper emotional connections",
+      "Channel restless energy into meaningful goals",
+      "Explore philosophies or spiritual practices that encourage inner growth"
+    ],
+    "mythologicalAndSymbolicRoots": "The Archer is often linked to Chiron, the wise centaur known for healing and teaching heroes. Chiron’s dual nature — part human, part beast — reflects Sagittarius’s blend of intellect and primal energy. The arrow aimed at the sky symbolizes the eternal quest for truth and the pursuit of higher knowledge.",
+    "summary": "Sagittarius is the adventurous, philosophical Fire sign ruled by Jupiter. Known for optimism, love of freedom, and a quest for knowledge, Sagittarians seek to expand horizons through travel, learning, and cultural exploration. They inspire others with their enthusiasm and big-picture thinking. Their challenge is balancing their restless nature with responsibility and follow-through, avoiding impulsivity or overconfidence. Looking ahead, Sagittarius embodies the spirit of exploration and open-mindedness necessary for global progress. Their broad vision and courage encourage humanity to embrace diversity and evolve spiritually and intellectually."
+  },
+  {
+    "name": "Capricorn",
+    "symbol": "♑",
+    "dateRange": "December 22 – January 19",
+    "element": "Earth",
+    "modality": "Cardinal",
+    "rulingPlanet": "Saturn",
+    "symbolMeaning": "A mythical creature with the front half of a goat and the tail of a fish, symbolizing determination and adaptability",
+    "coreTraits": {
+      "strengths": [
+        "Disciplined & responsible",
+        "Ambitious & hardworking",
+        "Patient & practical",
+        "Reliable & self-controlled",
+        "Strategic & goal-oriented"
+      ],
+      "challenges": [
+        "Can be rigid or pessimistic",
+        "Sometimes overly cautious",
+        "May struggle with expressing emotions",
+        "Can be distant or reserved",
+        "Tends to be self-critical"
+      ],
+      "description": "Capricorn stands as the embodiment of steady progress, structure, and long-term success, valuing tradition and hard work."
+    },
+    "planetInfluence": {
+      "planet": "Saturn",
+      "description": "Saturn, known as the taskmaster planet, rules Capricorn and imparts discipline and structure, lessons through challenges and responsibility, respect for tradition, rules, and authority, patience and perseverance.",
+      "impact": "Saturn’s influence encourages Capricorns to build solid foundations for lasting success."
+    },
+    "signCharacteristics": {
+      "type": "Cardinal Earth Sign",
+      "traits": [
+        "A natural initiator with a practical mindset",
+        "Focused on planning and executing goals",
+        "Grounded and realistic, valuing tangible results",
+        "A cautious but effective leader"
+      ]
+    },
+    "career": {
+      "description": "Capricorns excel in careers that require discipline and long-term planning:",
+      "fields": [
+        "Business, finance, and management",
+        "Law, government, and administration",
+        "Engineering and architecture",
+        "Academia and research",
+        "Any role requiring long-term planning and discipline"
+      ]
+    },
+    "loveAndRelationships": {
+      "description": "In relationships, Capricorn is loyal, devoted, and serious about commitment. Sometimes reserved emotionally but deeply caring. Values stability, trust, and long-term partnership. May take time to open up but offers unwavering support once committed.",
+      "bestMatches": [
+        "Taurus & Virgo (Earth signs — shared practicality and values)",
+        "Scorpio & Pisces (Water signs — emotional depth and complement Capricorn’s steadiness)"
+      ],
+      "partnerTraits": "Capricorns seek partners who respect their ambitions and appreciate their steady, dependable nature."
+    },
+    "shadowSide": [
+      "Can be overly rigid or controlling",
+      "May struggle with workaholism or excessive seriousness",
+      "Tends to fear failure and can be self-critical",
+      "Sometimes emotionally distant or overly cautious"
+    ],
+    "growthAdvice": [
+      "Practice balancing work and rest to avoid burnout",
+      "Cultivate emotional expression and vulnerability",
+      "Embrace adaptability without sacrificing core values",
+      "Use meditation or journaling to reflect on personal growth"
+    ],
+    "mythologyAndSymbolism": {
+      "description": "The Sea-Goat symbolizes Capricorn’s ability to navigate both earthly responsibilities and emotional depths (land and sea). In mythology, Capricorn is linked to the Greek god Pan, who transformed into a sea-goat to escape danger, representing resourcefulness and resilience."
+    },
+    "summary": "Capricorn, ruled by Saturn and anchored in Earth, is the zodiac’s steady architect. Known for discipline, responsibility, and ambition, Capricorns build lasting structures in life and work. They value tradition and long-term planning, steadily climbing towards success with patience and pragmatism. They can be reserved or self-critical but grow by balancing ambition with emotional openness and flexibility. Forward-thinking Capricorn blends respect for tradition with innovation, ensuring progress is sustainable. Their leadership and strategic vision serve as a foundation for enduring achievement."
+  },
+  {
+    "name": "Aquarius",
+    "symbol": "♒",
+    "dateRange": "January 20 – February 18",
+    "element": "Air",
+    "modality": "Fixed",
+    "rulingPlanets": ["Uranus (modern)", "Saturn (traditional)"],
+    "symbolMeaning": "The Water Bearer (a figure pouring water, symbolizing knowledge and humanitarianism)",
+    "coreTraits": {
+      "strengths": [
+        "Innovative & forward-thinking",
+        "Independent & strong-willed",
+        "Humanitarian & idealistic",
+        "Intellectual & analytical",
+        "Visionary & original"
+      ],
+      "challenges": [
+        "Can be unpredictable or aloof",
+        "Sometimes detached or unemotional",
+        "May appear eccentric or rebellious",
+        "Can be stubborn and inflexible",
+        "Struggles with emotional intimacy"
+      ],
+      "description": "Aquarius embodies the spirit of progress, originality, and collective welfare, always aiming to push boundaries and improve society."
+    },
+    "planetInfluence": {
+      "planets": ["Uranus", "Saturn"],
+      "description": "Uranus, the planet of sudden change and innovation, rules Aquarius and fuels its rebellious, inventive nature. Saturn, the traditional ruler, brings structure, discipline, and long-term vision, balancing Uranus’ disruptive energy. This dual rulership creates a dynamic tension between the desire for freedom and the need for order."
+    },
+    "signCharacteristics": {
+      "type": "Fixed Air Sign",
+      "traits": [
+        "Persistent in their ideas and beliefs",
+        "Mentally sharp and focused",
+        "Resistant to change that conflicts with their principles",
+        "Loyal to causes and communities they believe in"
+      ]
+    },
+    "career": {
+      "description": "Aquarius excels in careers that involve innovation and social progress:",
+      "fields": [
+        "Science, technology, and engineering",
+        "Social activism, politics, and non-profit work",
+        "Research, invention, and futurism",
+        "Art, music, and unconventional design",
+        "Roles involving networking and community building"
+      ]
+    },
+    "loveAndRelationships": {
+      "description": "In relationships, Aquarius values friendship, intellectual connection, and independence. Can be emotionally reserved but deeply loyal. Prefers unconventional or open relationships. Attracted to partners who respect their need for space and freedom.",
+      "bestMatches": [
+        "Gemini & Libra (Air signs — stimulating conversation and shared values)",
+        "Sagittarius & Aries (Fire signs — energy and enthusiasm that match Aquarius’ vibe)"
+      ],
+      "partnerTraits": "Aquarius needs a partner who embraces their uniqueness and supports their ideals."
+    },
+    "shadowSide": [
+      "Can be emotionally detached or distant",
+      "May struggle with vulnerability and intimacy",
+      "Sometimes rebellious to a fault, resisting necessary compromises",
+      "Can appear aloof or disconnected from emotions"
+    ],
+    "growthAdvice": [
+      "Practice active listening and emotional empathy",
+      "Embrace flexibility alongside strong convictions",
+      "Channel visionary ideas into tangible action",
+      "Use meditation or journaling to deepen self-awareness"
+    ],
+    "mythologyAndSymbolism": {
+      "description": "The Water Bearer represents the ancient Greek figure Ganymede, a divine cupbearer who brought life-giving water to the gods. This symbolizes Aquarius’ role as a bringer of knowledge, innovation, and humanitarian aid—pouring wisdom to nourish humanity."
+    },
+    "summary": "Aquarius, an Air sign ruled by Uranus and Saturn, is the zodiac’s visionary and humanitarian. They prize independence, originality, and progressive ideas, often challenging conventions to bring about social change. Aquarians think globally and act with future-oriented ideals. They can sometimes be detached or rebellious, and their growth involves balancing innovation with connection and empathy. In a fast-changing world, Aquarius thrives as a catalyst for innovation and community. Their ability to merge tradition with bold new visions fosters a more equitable and enlightened future."
+  },
+  {
+    "name": "Pisces",
+    "symbol": "♓",
+    "dateRange": "February 19 – March 20",
+    "element": "Water",
+    "modality": "Mutable",
+    "rulingPlanets": ["Neptune (modern)", "Jupiter (traditional)"],
+    "symbolMeaning": "Two Fish swimming in opposite directions (symbolizing duality, intuition, and fluidity)",
+    "coreTraits": {
+      "strengths": [
+        "Compassionate & empathetic",
+        "Intuitive & spiritual",
+        "Artistic & imaginative",
+        "Gentle & selfless",
+        "Adaptable & forgiving"
+      ],
+      "challenges": [
+        "Can be overly idealistic or escapist",
+        "Sometimes indecisive or passive",
+        "Prone to moodiness or confusion",
+        "May struggle with boundaries",
+        "Can be overly trusting or vulnerable"
+      ],
+      "description": "Pisces embodies deep emotional sensitivity, spiritual wisdom, and creative imagination, often feeling connected to the unseen realms."
+    },
+    "planetInfluence": {
+      "planets": ["Neptune", "Jupiter"],
+      "description": "Neptune, the planet of dreams, illusion, and spirituality, rules Pisces, giving it a mystical and visionary quality. Jupiter, the traditional ruler, adds optimism, expansion, and faith. This combination encourages Pisces to explore the spiritual and imaginative side of life with faith and wonder."
+    },
+    "signCharacteristics": {
+      "type": "Mutable Water Sign",
+      "traits": [
+        "Emotionally flexible and adaptable",
+        "Sensitive to the moods and needs of others",
+        "Often reflective and introspective",
+        "Able to flow with change and transition gracefully"
+      ]
+    },
+    "career": {
+      "description": "Pisces excels in careers that require empathy and creativity:",
+      "fields": [
+        "Arts: music, writing, painting, acting",
+        "Healing professions: nursing, therapy, holistic healing",
+        "Spiritual or counseling roles",
+        "Work involving charity or social services",
+        "Roles that require empathy and imagination"
+      ]
+    },
+    "loveAndRelationships": {
+      "description": "In relationships, Pisces is deeply romantic and devoted. Emotionally sensitive and caring. Sometimes prone to idealizing partners. Needs understanding, patience, and emotional safety.",
+      "bestMatches": [
+        "Cancer & Scorpio (Water signs — emotional depth and intuitive bonds)",
+        "Taurus & Capricorn (Earth signs — grounding Pisces’ dreamy nature)"
+      ],
+      "partnerTraits": "Pisces seeks partners who offer stability and gentle support."
+    },
+    "shadowSide": [
+      "Can be overly escapist or avoidant of reality",
+      "May struggle with setting healthy boundaries",
+      "Prone to emotional overwhelm or self-pity",
+      "Sometimes loses self in others or addictive patterns"
+    ],
+    "growthAdvice": [
+      "Practice mindfulness and grounding techniques",
+      "Develop clear personal boundaries",
+      "Channel creativity into tangible projects",
+      "Explore meditation or spiritual practices to connect with inner wisdom"
+    ],
+    "mythologyAndSymbolism": {
+      "description": "Pisces is linked to the myth of Aphrodite and Eros who transformed into fish to escape the monster Typhon, swimming bound together by a cord symbolizing unity and protection. This tale reflects Pisces’ themes of connection, sacrifice, and spiritual transcendence."
+    },
+    "summary": "Pisces, ruled by Neptune and Jupiter and a mutable Water sign, is the intuitive dreamer and spiritual guide of the zodiac. Compassionate and imaginative, Pisces connects deeply with emotions and the unseen realms, often expressing themselves through art and empathy. Pisces may struggle with boundaries and escapism but grow by grounding their vision in reality and self-care. Looking forward, Pisces’ gift is bridging the material and spiritual worlds. Their empathy and creativity inspire healing and connection, making them invaluable in nurturing a compassionate future."
+  }
+]

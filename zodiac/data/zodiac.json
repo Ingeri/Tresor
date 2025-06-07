@@ -1,122 +1,122 @@
 [
-    {
-      "name": "Aries",
-      "symbol": "♈",
-      "start": "03-21",
-      "end": "04-19",
-      "element": "Fire",
-      "rulingPlanet": "Mars",
-      "details": "Aries is the first sign of the zodiac, known for being energetic and assertive.",
-      "characteristics": "Energetic, assertive, dynamic, courageous, and competitive."
-    },
-    {
-      "name": "Taurus",
-      "symbol": "♉",
-      "start": "04-20",
-      "end": "05-20",
-      "element": "Earth",
-      "rulingPlanet": "Venus",
-      "details": "Taurus is the second sign of the zodiac, known for being reliable and patient.",
-      "characteristics": "Reliable, patient, practical, devoted, and responsible."
-    },
-    {
-      "name": "Gemini",
-      "symbol": "♊",
-      "start": "05-21",
-      "end": "06-20",
-      "element": "Air",
-      "rulingPlanet": "Mercury",
-      "details": "Gemini is the third sign of the zodiac, known for being adaptable and outgoing.",
-      "characteristics": "Adaptable, outgoing, intelligent, curious, and affectionate."
-    },
-    {
-      "name": "Cancer",
-      "symbol": "♋",
-      "start": "06-21",
-      "end": "07-22",
-      "element": "Water",
-      "rulingPlanet": "Moon",
-      "details": "Cancer is the fourth sign of the zodiac, known for being intuitive and caring.",
-      "characteristics": "Intuitive, caring, loyal, emotional, and protective."
-    },
-    {
-      "name": "Leo",
-      "symbol": "♌",
-      "start": "07-23",
-      "end": "08-22",
-      "element": "Fire",
-      "rulingPlanet": "Sun",
-      "details": "Leo is the fifth sign of the zodiac, known for being confident and charismatic.",
-      "characteristics": "Confident, charismatic, generous, loyal, and enthusiastic."
-    },
-    {
-      "name": "Virgo",
-      "symbol": "♍",
-      "start": "08-23",
-      "end": "09-22",
-      "element": "Earth",
-      "rulingPlanet": "Mercury",
-      "details": "Virgo is the sixth sign of the zodiac, known for being analytical and meticulous.",
-      "characteristics": "Analytical, meticulous, practical, reliable, and kind."
-    },
-    {
-      "name": "Libra",
-      "symbol": "♎",
-      "start": "09-23",
-      "end": "10-22",
-      "element": "Air",
-      "rulingPlanet": "Venus",
-      "details": "Libra is the seventh sign of the zodiac, known for being diplomatic and charming.",
-      "characteristics": "Diplomatic, charming, fair-minded, social, and cooperative."
-    },
-    {
-      "name": "Scorpio",
-      "symbol": "♏",
-      "start": "10-23",
-      "end": "11-21",
-      "element": "Water",
-      "rulingPlanet": "Pluto",
-      "details": "Scorpio is the eighth sign of the zodiac, known for being passionate and resourceful.",
-      "characteristics": "Passionate, resourceful, brave, determined, and magnetic."
-    },
-    {
-      "name": "Sagittarius",
-      "symbol": "♐",
-      "start": "11-22",
-      "end": "12-21",
-      "element": "Fire",
-      "rulingPlanet": "Jupiter",
-      "details": "Sagittarius is the ninth sign of the zodiac, known for being adventurous and optimistic.",
-      "characteristics": "Adventurous, optimistic, independent, enthusiastic, and philosophical."
-    },
-    {
-      "name": "Capricorn",
-      "symbol": "♑",
-      "start": "12-22",
-      "end": "01-19",
-      "element": "Earth",
-      "rulingPlanet": "Saturn",
-      "details": "Capricorn is the tenth sign of the zodiac, known for being disciplined and ambitious.",
-      "characteristics": "Disciplined, ambitious, responsible, practical, and resourceful."
-    },
-    {
-      "name": "Aquarius",
-      "symbol": "♒",
-      "start": "01-20",
-      "end": "02-18",
-      "element": "Air",
-      "rulingPlanet": "Uranus",
-      "details": "Aquarius is the eleventh sign of the zodiac, known for being innovative and independent.",
-      "characteristics": "Innovative, independent, humanitarian, intelligent, and unconventional."
-    },
-    {
-      "name": "Pisces",
-      "symbol": "♓",
-      "start": "02-19",
-      "end": "03-20",
-      "element": "Water",
-      "rulingPlanet": "Neptune",
-      "details": "Pisces is the twelfth sign of the zodiac, known for being compassionate and artistic.",
-      "characteristics": "Compassionate, artistic, intuitive, gentle, and wise."
-    }
-  ]
+  {
+    "name": "Aries",
+    "symbol": "♈",
+    "start": "03-21",
+    "end": "04-19",
+    "element": "Fire",
+    "rulingPlanet": "Mars",
+    "details": "Aries is the first sign of the zodiac, known for being energetic and assertive.",
+    "characteristics": "Energetic, assertive, dynamic, courageous, and competitive."
+  },
+  {
+    "name": "Taurus",
+    "symbol": "♉",
+    "start": "04-20",
+    "end": "05-20",
+    "element": "Earth",
+    "rulingPlanet": "Venus",
+    "details": "Taurus is the second sign of the zodiac, known for being reliable and patient.",
+    "characteristics": "Reliable, patient, practical, devoted, and responsible."
+  },
+  {
+    "name": "Gemini",
+    "symbol": "♊",
+    "start": "05-21",
+    "end": "06-20",
+    "element": "Air",
+    "rulingPlanet": "Mercury",
+    "details": "Gemini is the third sign of the zodiac, known for being adaptable and outgoing.",
+    "characteristics": "Adaptable, outgoing, intelligent, curious, and affectionate."
+  },
+  {
+    "name": "Cancer",
+    "symbol": "♋",
+    "start": "06-21",
+    "end": "07-22",
+    "element": "Water",
+    "rulingPlanet": "Moon",
+    "details": "Cancer is the fourth sign of the zodiac, known for being intuitive and caring.",
+    "characteristics": "Intuitive, caring, loyal, emotional, and protective."
+  },
+  {
+    "name": "Leo",
+    "symbol": "♌",
+    "start": "07-23",
+    "end": "08-22",
+    "element": "Fire",
+    "rulingPlanet": "Sun",
+    "details": "Leo is the fifth sign of the zodiac, known for being confident and charismatic.",
+    "characteristics": "Confident, charismatic, generous, loyal, and enthusiastic."
+  },
+  {
+    "name": "Virgo",
+    "symbol": "♍",
+    "start": "08-23",
+    "end": "09-22",
+    "element": "Earth",
+    "rulingPlanet": "Mercury",
+    "details": "Virgo is the sixth sign of the zodiac, known for being analytical and meticulous.",
+    "characteristics": "Analytical, meticulous, practical, reliable, and kind."
+  },
+  {
+    "name": "Libra",
+    "symbol": "♎",
+    "start": "09-23",
+    "end": "10-22",
+    "element": "Air",
+    "rulingPlanet": "Venus",
+    "details": "Libra is the seventh sign of the zodiac, known for being diplomatic and charming.",
+    "characteristics": "Diplomatic, charming, fair-minded, social, and cooperative."
+  },
+  {
+    "name": "Scorpio",
+    "symbol": "♏",
+    "start": "10-23",
+    "end": "11-21",
+    "element": "Water",
+    "rulingPlanet": "Pluto",
+    "details": "Scorpio is the eighth sign of the zodiac, known for being passionate and resourceful.",
+    "characteristics": "Passionate, resourceful, brave, determined, and magnetic."
+  },
+  {
+    "name": "Sagittarius",
+    "symbol": "♐",
+    "start": "11-22",
+    "end": "12-21",
+    "element": "Fire",
+    "rulingPlanet": "Jupiter",
+    "details": "Sagittarius is the ninth sign of the zodiac, known for being adventurous and optimistic.",
+    "characteristics": "Adventurous, optimistic, independent, enthusiastic, and philosophical."
+  },
+  {
+    "name": "Capricorn",
+    "symbol": "♑",
+    "start": "12-22",
+    "end": "01-19",
+    "element": "Earth",
+    "rulingPlanet": "Saturn",
+    "details": "Capricorn is the tenth sign of the zodiac, known for being disciplined and ambitious.",
+    "characteristics": "Disciplined, ambitious, responsible, practical, and resourceful."
+  },
+  {
+    "name": "Aquarius",
+    "symbol": "♒",
+    "start": "01-20",
+    "end": "02-18",
+    "element": "Air",
+    "rulingPlanet": "Uranus",
+    "details": "Aquarius is the eleventh sign of the zodiac, known for being innovative and independent.",
+    "characteristics": "Innovative, independent, humanitarian, intelligent, and unconventional."
+  },
+  {
+    "name": "Pisces",
+    "symbol": "♓",
+    "start": "02-19",
+    "end": "03-20",
+    "element": "Water",
+    "rulingPlanet": "Neptune",
+    "details": "Pisces is the twelfth sign of the zodiac, known for being compassionate and artistic.",
+    "characteristics": "Compassionate, artistic, intuitive, gentle, and wise."
+  }
+]
