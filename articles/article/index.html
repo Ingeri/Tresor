@@ -6,14 +6,28 @@
     <title id="article-title">Articles</title>
     <link rel="shortcut icon" href="../../log.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/header.css">
+    <script src="/js/sub_header.js" defer></script>
 </head>
 <body>
     <!-- Header with Links -->
     <header>
+        <div class="logo">
+            Lit
+        </div>
+        <div class="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <nav>
             <ul>
-                <li><a href="../../">Home</a></li>
-                <li><a href="../">Articles</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/zodiac/">Zodiac</a></li>
+                <li><a href="/articles/">Articles</a></li>
+                <li><a href="/AI/">AI</a></li>
+                <li><a href="/#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -39,6 +53,17 @@
             <ul id="related-articles-list"></ul>
         </section>
     </div>
+
+    <footer class="footer">
+        <div>
+            <a href="/">Home</a> |
+            <a href="/AI/">AI</a> |
+            <a href="/articles/">Articles</a> |
+            <a href="/zodiac/">Zodiac</a>
+        </div>
+        <p>&copy; 2025 Ingeri Tresor | All Rights Reserved</p>
+        <p>Designed by Lit</p>
+    </footer>
   
     <script>
         // Function to fetch and load the article from the JSON file

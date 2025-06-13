@@ -7,10 +7,10 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   margin: 0;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 #cardContainer {
@@ -92,6 +92,7 @@ body {
   width: 100%;
   max-width: 900px;
   background-color: #004c99;
+  margin-bottom: 25px;
 }
 
 .zodiac-sign-top {
@@ -188,5 +189,11 @@ body {
 
   .input-section button:hover {
     background-color: #004c99;
+  }
+
+  @media(max-width: 375px){
+    .input-section label{
+      display: none;
+    }
   }
 /* </style> */

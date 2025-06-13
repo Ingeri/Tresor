@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Articles</title>
     <link rel="shortcut icon" href="../log.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/header.css">
+    <script src="/js/sub_header.js" defer></script>
 </head>
+
 <body>
+    <header>
+        <div class="logo">
+            Lit
+        </div>
+        <div class="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/zodiac/">Zodiac</a></li>
+                <!-- <li><a href="/articles/">Articles</a></li> -->
+                <li><a href="/AI/">AI</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <h1>Articles</h1>
 
@@ -18,16 +42,32 @@
 
     <!-- Filters -->
     <div class="filters">
-        <label class="filter-checkbox"><input type="checkbox" id="filter-trending" onchange="filterArticles()" /> 🔥 Trending</label>
-        <label class="filter-checkbox"><input type="checkbox" id="filter-featured" onchange="filterArticles()" /> ⭐ Featured</label>
-        <label class="filter-checkbox"><input type="checkbox" id="filter-new" onchange="filterArticles()" /> 🆕 New</label>
-        <label class="filter-checkbox"><input type="checkbox" id="filter-frontend" onchange="filterArticles()" /> 🎨 Frontend</label>
-        <label class="filter-checkbox"><input type="checkbox" id="filter-backend" onchange="filterArticles()" /> ⚙️ Backend</label>
+        <label class="filter-checkbox"><input type="checkbox" id="filter-trending" onchange="filterArticles()" /> 🔥
+            Trending</label>
+        <label class="filter-checkbox"><input type="checkbox" id="filter-featured" onchange="filterArticles()" /> ⭐
+            Featured</label>
+        <label class="filter-checkbox"><input type="checkbox" id="filter-new" onchange="filterArticles()" /> 🆕
+            New</label>
+        <label class="filter-checkbox"><input type="checkbox" id="filter-frontend" onchange="filterArticles()" /> 🎨
+            Frontend</label>
+        <label class="filter-checkbox"><input type="checkbox" id="filter-backend" onchange="filterArticles()" /> ⚙️
+            Backend</label>
     </div>
 
     <div id="articles-list" class="articles-list">
         <!-- Article links will be dynamically inserted here -->
     </div>
+
+    <footer class="footer">
+        <div>
+            <a href="/">Home</a> |
+            <a href="/AI/">AI</a> |
+            <a href="/articles/">Articles</a> |
+            <a href="/zodiac/">Zodiac</a>
+        </div>
+        <p>&copy; 2025 Ingeri Tresor | All Rights Reserved</p>
+        <p>Designed by Lit</p>
+    </footer>
 
     <script>
         let articles = [];  // Global variable to store fetched articles
@@ -90,4 +130,5 @@
         fetchArticles();
     </script>
 </body>
+
 </html>
