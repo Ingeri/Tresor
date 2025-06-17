@@ -1006,7 +1006,7 @@ iframe {
 .close-fqa {
   display: flex;
   position: sticky;
-  background-color: ;
+  background-color: var(--color-bg-alt);
   top: 0;
   right: 0;
   cursor: pointer;
