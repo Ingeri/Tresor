@@ -281,7 +281,7 @@ galleryItems.forEach((item) => {
 
             filteredArticles.forEach(article => {
                 const articleLink = document.createElement('a');
-                articleLink.href = `../articles/article-template.html?id=${article.id}`;
+                articleLink.href = `../articles/article/?id=${article.id}`;
                 articleLink.classList.add('article-link');
                 articleLink.textContent = article.title;
 

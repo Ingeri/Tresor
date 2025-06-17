@@ -8,7 +8,7 @@
 }
 
 .section-heading {
-  color: var(--section-heading-color);
+  color: var(--color-primary);
   padding-top: 20px;
 }
 
@@ -21,10 +21,10 @@
 /* Sidebar (Left Block) */
 .sidebar {
   width: 250px;
-  background: var(--sidebar-bg-color);
+  background: var(--color-bg-alt);
   padding: 20px;
   display: flex;
-  color: var(--black-color);
+  color: var(--color-text-muted);
   flex-direction: column;
   /* align-items: center; */
   overflow-y: auto;
@@ -46,13 +46,13 @@
   max-height: 90%;
   object-fit: contain;
   border-radius: 50%;
-  border: #ab9191 5px solid;
+  border: var(--color-border) solid;
 }
 
 .logo {
   font-size: 24px;
   margin-bottom: 20px;
-  color: var(--logo-color);
+  color: var(--color-secondary);
   text-align: center;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .sidebar .main-links li a {
-  color: var(--black-color);
+  color: var(--color-text-muted);
   text-decoration: none;
   font-size: 18px;
   display: block;
@@ -75,8 +75,8 @@
 }
 
 .sidebar .main-links li a:hover {
-  background: var(--sidebar-main-links-li-a-hover-bg);
-  color: var(--black-color);
+  background: var(--color-border);
+  color: var(--color-accent);
 }
 
 .dropdown {
@@ -117,67 +117,63 @@
   user-select: none;
 }
 
+.sub-dropdown-content ul li .flag-icon {
+  width: 17px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 /* Content (Right Block) */
 .content {
   flex: 1;
-  background: var(--content-bg-color);
-  color: var(--white-color);
+  background: var(--color-bg);
+  color: var(--color-text);
   overflow-y: auto;
   scroll-behavior: smooth;
 }
 
 .main-h2 {
   padding: 30px 0;
-  color: var(--main-h2-color);
+  color: var(--color-secondary);
   text-align: left;
 }
 
 .icon {
   width: 24px;
   height: 24px;
-  fill: var(--black-color);
-  /* Icon color */
+  fill: var(--color-text);
   display: inline-block;
-  /* Ensures margin applies only to the icon */
   margin-right: 10px;
-  /* Space between icon and text */
   vertical-align: middle;
-  /* Keeps it aligned with text */
 }
 
-/* For WebKit browsers (Chrome, Edge, Safari) */
 ::-webkit-scrollbar {
   width: 10px;
-  /* Width of vertical scrollbar */
   height: 10px;
-  /* Height of horizontal scrollbar */
 }
 
 /* Track (background of the scrollbar) */
 ::-webkit-scrollbar-track {
-  background: var(--scrollbar-track-bg);
-  /* Light gray background */
+  background: var(--color-bg);
   border-radius: 10px;
 }
 
 /* Handle (the draggable part) */
 ::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-thumb-bg);
+  background: var(--color-text-muted);
   /* Darker color for contrast */
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--scrollbar-thumb-hover-bg);
+  background: var(--color-text);
 }
 
 /* Firefox Scrollbar */
 * {
   scrollbar-width: thin;
-  /* Makes it thinner */
-  scrollbar-color: var(--scrollbar-thumb-bg) var(--scrollbar-track-bg);
-  /* Thumb color and Track color */
+  scrollbar-color: var(--color-bg) var(--color-text-muted);
 }
 
 /* Social Media Icons */
@@ -195,26 +191,26 @@
   display: flex;
   width: 30px;
   height: 30px;
-  background-color: var(--social-media-bg-color);
+  background-color: var(--color-secondary);
   justify-content: center;
   align-items: center;
   border-radius: 50%;
 }
 
 .social-media li a:hover {
-  background-color: var(--social-media-hover-bg-color);
-  color: #000;
+  background-color: var(--color-secondary);
+  color: white;
 }
 
 .social-media svg {
   max-width: 24px;
   max-height: 24px;
   margin: 0 auto;
-  fill: #c6b3b3;
+  fill: white;
 }
 
 .social-media li a:hover svg {
-  fill: #000;
+  fill: var(--color-text);
 }
 
 /**/
@@ -224,6 +220,7 @@
   flex-direction: column;
   justify-content: center;
   background-image: url(../img/back.png);
+  background-color: var(--color-bg-alt);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -233,18 +230,18 @@
 
 #home h1 {
   text-align: left;
-  color: #fff;
+  color: var(--color-text);
 }
 
 .name {
-  color: var(--home-name-color);
+  color: var(--color-primary);
   /* Your preferred color */
   font-weight: bold;
 }
 
 .quote {
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--color-text-muted);
   min-height: 50px;
   /* Prevent layout shift */
 }
@@ -258,7 +255,7 @@
 
 /**/
 .containe {
-  background-color: var(--containe-bg-color);
+  background-color: var(--color-bg);
   padding: 20px;
   max-width: 1100px;
   margin: 0 auto;
@@ -266,7 +263,7 @@
 
 .intro-text {
   font-size: 18px;
-  color: var(--intro-text-color);
+  color: var(--color-text);
   margin-bottom: 30px;
 }
 
@@ -285,13 +282,13 @@
 
 .about-text h3 {
   font-size: 24px;
-  color: var(--about-text-color);
+  color: var(--color-secondary);
   margin-bottom: 15px;
 }
 
 .about-text p {
   font-size: 16px;
-  color: var(--about-text-p-color);
+  color: var(--color-text);
   margin-bottom: 20px;
 }
 
@@ -312,11 +309,11 @@
 
 .about-list strong {
   width: 100px;
-  color: var(--about-list-strong-color);
+  color: var(--color-text);
 }
 
 .about-list span {
-  color: var(--about-list-span-color);
+  color: var(--color-text-muted);
 }
 
 .about-image {
@@ -333,13 +330,13 @@
 
 .extra-text {
   font-size: 16px;
-  color: var(--extra-text-color);
+  color: var(--color-text);
   margin-top: 30px;
 }
 
 .about-text h3,
 .container-sikills h2 {
-  color: var(--about-text-h3-color);
+  color: var(--color-secondary);
 }
 
 /* Responsive Design */
@@ -361,9 +358,9 @@
 
 /* */
 #skills {
-  color: var(--scrollbar-thumb-bg);
+  color: var(--color-text);
   padding: 40px;
-  background-color: var(--container-sikills-bg-color);
+  background-color: var(--color-bg);
 }
 
 .container-sikills {
@@ -376,12 +373,12 @@
   height: 10px;
   margin: auto;
   overflow: hidden;
-  background-color: var(--skill-bar-bg-color);
+  background-color: var(--color-bg-alt);
 }
 
 .skill-fill {
   height: 100%;
-  background: var(--skill-fill-bg-color);
+  background: var(--color-primary);
   width: 0;
   /* Default: Animated in JS */
   transition: width 1s ease-in-out;
@@ -433,7 +430,7 @@
 #stats {
   text-align: center;
   padding: 50px 20px;
-  background: var(--stats-bg-color);
+  background: var(--color-bg);
 }
 
 .stats-container {
@@ -448,7 +445,7 @@
   flex-direction: row;
   padding: 20px;
   width: 220px;
-  border: 2px solid var(--stat-box-border-color);
+  border: var(--color-border) 2px solid ;
 }
 
 .stat-box svg {
@@ -462,38 +459,33 @@
 
 .stat-box h3 {
   font-size: 2rem;
-  color: var(--stat-box-h3-color);
+  color: var(--color-accent);
 }
 
 .stat-box p {
   font-size: 1rem;
-  color: var(--stat-box-p-color);
+  color: var(--color-text);
 }
 
 .icons {
   width: 100px;
   height: 50px;
-  fill: #87cefa;
-  /* Icon color */
+  fill: var(--color-secondary);
   display: inline-block;
-  /* Ensures margin applies only to the icon */
   margin-right: 10px;
-  /* Space between icon and text */
   vertical-align: middle;
-  /* Keeps it aligned with text */
 }
 
 /**/
 #resume {
-  background-color: var(--resume-bg-color);
+  background-color: var(--color-bg-alt);
   padding: 20px;
-  color: var(--black-color);
+  color: var(--color-text);
 }
 
 .resume {
   max-width: 900px;
   margin: 20px auto;
-  background: var(--resume-bg-color);
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -501,14 +493,14 @@
 }
 
 .resume-sidebar {
-  background: var(--resume-sidebar-bg-color);
-  color: #fff;
+  background: var(--color-bg);
+  color: var(--color-text);
   padding: 20px;
   border-radius: 5px;
 }
 
 .resume-sidebar h2 {
-  color: var(--resume-sidebar-h2-color);
+  color: var(--color-secondary);
   padding-bottom: 15px;
 }
 
@@ -519,7 +511,7 @@
 .main-content h2 {
   padding-bottom: 15px;
   padding: -20px 0;
-  color: var(--resume-main-content-h2-color);
+  color: var(--color-secondary);
 }
 
 .section {
@@ -527,7 +519,7 @@
   position: relative;
   margin-bottom: 20px;
   padding: 10px;
-  border-left: 4px solid var(--resume-section-border-color);
+  border-left: var(--color-primary) solid ;
 }
 
 .section::before {
@@ -535,8 +527,8 @@
   position: absolute;
   width: 12px;
   height: 12px;
-  background: #fafafa00;
-  border: 2px solid var(--resume-section-border-color);
+  background: var(--color-bg);
+  border: 2px solid var(--color-primary);
   border-radius: 50%;
   left: -8px;
   top: -10px;
@@ -562,7 +554,7 @@
 /* */
 
 #service {
-  background-color: var(--service-bg-color);
+  background-color: var(--color-bg-alt);
   padding: 20px;
 }
 
@@ -573,28 +565,27 @@
   margin: 20px auto;
   padding: 20px;
   border-radius: 5px;
-  color: var(--black-color);
+  color: var(--color-text);
 }
 
 .service {
   display: flex;
   gap: 10px;
   padding: 15px;
-  border: 1px solid var(--service-border-color);
+  border: var(--color-accent) 1px solid ;
   border-radius: 5px;
 }
 
 .service h2 {
   margin: 0 0 10px;
-  color: var(--service-h2-color);
-
+  color: var(--color-secondary);
   position: relative;
   display: flex;
   align-items: center;
 }
 
 .service p {
-  border-left: 4px solid var(--service-p-border-color);
+  border-left: var(--color-accent) solid ;
   padding-left: 10px;
 }
 
@@ -607,9 +598,7 @@
 
   /* Ensure background color is applied correctly */
   #service {
-    background-color: var(
-      --white-color
-    ); /* Change background color on small screens */
+    background-color: var(--color-bg-alt);
   }
 
   .service {
@@ -626,7 +615,7 @@
 
 /**/
 #contact {
-  background: var(--white-color);
+  background: var(--color-bg-alt);
   padding: 20px;
 }
 
@@ -640,14 +629,14 @@
 .contact-info {
   flex: 1;
   padding: 20px;
-  background: var(--contact-info-bg-color);
-  color: var(--white-color);
+  background: var(--color-bg);
+  color: var(--color-text);
   border-radius: 5px;
 }
 
 .contact-info-h2,
 #contact-info-h2 {
-  color: var(--contact-info-h2-color);
+  color: var(--color-secondary);
   padding: 20px 0;
 }
 
@@ -661,17 +650,17 @@
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid var(--form-group-input-border-color);
+  border: var(--color-border) 1px solid ;
   border-radius: 5px;
 }
 
 .form-group label {
-  color: var(--black-color);
+  color: var(--color-text-muted);
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border: 1px solid var(--form-group-input-focus-border-color);
+  border: var(--color-primary) 1px solid ;
   outline: none;
 }
 
@@ -680,8 +669,8 @@
 }
 
 .contact-form button {
-  background: var(--contact-form-button-bg-color);
-  color: var(--contact-form-button-color);
+  background: var(--color-primary);
+  color: var(--color-bg);
   padding: 10px;
   border: none;
   cursor: pointer;
@@ -707,22 +696,22 @@ iframe {
   flex-direction: column;
   height: 50px;
   margin-top: 0px;
-  color: #fff;
+  color: var(--color-text);
 }
 
 .contact-ico p strong {
-  color: var(--contact-info-h2-color);
+  color: var(--color-accent);
 }
 
 #contact .c-icons {
-  width: 30px;
-  height: 30px;
-  fill: var(--contact-ico-color);
+  width: 45px;
+  height: 45px;
+  fill: var(--color-bg-alt);
   margin-right: 20px;
   vertical-align: middle;
   padding: 10px;
   border-radius: 50%;
-  background-color: var(--contact-ico-bg-color);
+  background-color: var(--color-secondary);
 }
 
 @media (max-width: 900px) {
@@ -748,7 +737,7 @@ iframe {
   overflow: hidden;
   position: relative;
   border-radius: 10px;
-  background: var(--testimonial-bg-color);
+  background: var(--color-card);
   padding: 10px 0;
   margin: 0 auto;
   cursor: pointer;
@@ -774,7 +763,7 @@ iframe {
 /*  */
 #testmonials {
   padding: 20px 0;
-  background-color: var(--testimonial-bg-color);
+  background-color: var(--color-bg-alt);
 }
 
 /* Testimonial Content */
@@ -787,8 +776,8 @@ iframe {
 /* Styling the paragraph inside testimonial-content */
 .testimonial-content p {
   font-size: 14px;
-  color: var(--testimonial-content-p-color);
-  background-color: var(--white-color);
+  color: var(--color-text);
+  background-color: var(--color-border);
   font-style: italic;
   position: relative;
   z-index: 100;
@@ -799,7 +788,7 @@ iframe {
 .testimonial-content p .p-span-t,
 .testimonial-content p .p-span-b {
   position: absolute;
-  color: var(--testimonial-content-p-span-color);
+  color: var(--color-text);
   font-family: "poppinis", sans-serif;
   font-size: 48px;
   height: 3px;
@@ -817,7 +806,7 @@ iframe {
   left: 50%;
   width: 25px;
   height: 25px;
-  background: var(--white-color);
+  background: var(--color-border);
   transform: translateX(-50%) rotate(45deg);
   z-index: -3;
 }
@@ -840,12 +829,12 @@ iframe {
 .testimonial-img h4 {
   margin-top: 5px;
   font-size: 20px;
-  color: var(--testimonial-img-h4-color);
+  color: var(--color-secondary);
   margin-bottom: 5px;
 }
 
 .testimonial-img h5 {
-  color: var(--testimonial-img-h5-color);
+  color: var(--color-text-muted);
   font-size: 14px;
 }
 
@@ -861,15 +850,16 @@ iframe {
   width: 15px;
   height: 15px;
   margin: 0 5px;
-  background: #bbbbbb00;
-  border: 2px blue solid;
+  background: var(--color-secondary);
+  border: var(--color-secondary) 2px solid;
   border-radius: 50%;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 .dot.active {
-  background: blue;
+  background: var(--color-accent);
+  border-color: var(--color-accent);
 }
 
 /* Mobile Responsive */
@@ -914,14 +904,14 @@ iframe {
 
 /*  */
 .footer {
-  background: var(--footer-bg-color);
-  color: var(--black-color);
+  background: var(--color-bg-alt);
+  color: var(--color-text);
   text-align: center;
   padding: 20px;
 }
 
 .footer a {
-  color: var(--footer-a-color);
+  color: var(--color-accent);
   text-decoration: none;
   margin: 0 10px;
   font-size: 14px;
@@ -934,13 +924,13 @@ iframe {
 .footer p {
   font-size: 14px;
   margin-top: 10px;
-  color: var(--black-color);
+  color: var(--color-text);
 }
 
 /*  */
 #fqa {
   padding: 40px 20px;
-  background-color: var(--faq-bg-color);
+  background-color: var(--color-bg);
 }
 
 .faq-section {
@@ -953,20 +943,20 @@ iframe {
 }
 
 .faq-item {
-  background: var(--white-colr);
+  background: var(--color-bg-alt);
   border-radius: 5px;
-  border: 1px solid var(--faq-item-border-color);
+  border: var(--color-border) 1px solid ;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .faq-item:hover {
-  background: var(--faq-item-hover-bg-color);
+  background: var(--color-hover);
 }
 
 .faq-question {
-  background: var(--faq-question-bg-color);
-  color: var(--black-color);
+  /* background: var(--color-bg-alt); */
+  color: var(--color-text);
   padding: 15px;
   font-size: 16px;
   display: flex;
@@ -983,7 +973,7 @@ iframe {
 .faq-answer {
   display: none;
   padding: 10px;
-  color: var(--faq-answer-color);
+  color: var(--color-bg-alt);
   font-size: 14px;
 }
 
@@ -995,32 +985,32 @@ iframe {
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--modal-bg-color);
+  background: var(--color-bg-alt);
   justify-content: center;
   align-items: center;
   overflow-y: auto;
 }
 
 #fqa .modal-content {
-  background: var(--white-color);
+  /* background: red; */
   position: fixed;
   border-radius: 5px;
   max-width: 600px;
   width: 90%;
   margin: 5px auto;
   position: relative;
-  box-shadow: 0px 5px 15px var(--modal-content-box-shadow-color);
-  color: var(--black-color);
+  box-shadow: 0px 5px 15px ;
+  color: var(--color-text);
 }
 
 .close-fqa {
   display: flex;
   position: sticky;
-  background-color: var(--modal-close-bg-color);
+  background-color: ;
   top: 0;
   right: 0;
   cursor: pointer;
-  color: var(--modal-close-color);
+  color: var(--color-text-muted);
 }
 
 .close-fqa h2 {
@@ -1046,7 +1036,7 @@ iframe {
 }
 
 #modalText {
-  background-color: var(--modal-text-bg-color);
+  background-color: var(--color-hover);
   height: 90vh;
   overflow-y: auto;
 }
@@ -1062,7 +1052,7 @@ iframe {
 #portfolio {
   text-align: center;
   padding: 20px;
-  background: var(--portfolio-bg-color);
+  background: var(--color-bg);
 }
 
 .filter-buttons {
@@ -1071,23 +1061,23 @@ iframe {
 
 .filter-buttons button {
   padding: 10px 20px;
+  color: var(--color-text);
   margin: 5px;
   border: none;
   cursor: pointer;
-  background: var(--portfolio-filter-buttons-bg-color);
-  color: var(--white-color);
+  background: var(--color-hover);
   border-radius: 5px;
   transition: 0.3s;
 }
 
 .filter-buttons button:hover {
-  background: var(--scrollbar-thumb-hover-bg);
+  background: var(--color-bg-alt);
 }
 
 /* Active button styling */
 button.active {
-  background: var(--portfolio-filter-buttons-active-bg-color);
-  color: #fff;
+  background: var(--color-accent);
+  color: var(--color-bg);
 }
 
 .portfolio {
@@ -1104,8 +1094,8 @@ button.active {
   height: 200px;
   overflow: hidden;
   border-radius: 5px;
-  background: var(--white-color);
-  border: 1px solid var(--project-border-color);
+  background: var(--color-bg-alt);
+  border: var(--color-border) 1px solid ;
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
   opacity: 1;
   transform: scale(1);
@@ -1124,8 +1114,8 @@ button.active {
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--overlay-bg-color);
-  color: #fff;
+  background: #00000099;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1145,7 +1135,7 @@ button.active {
 }
 
 .actions .view-details {
-  color: green;
+  color: white;
   border-radius: 5px;
   padding: 5px 10px;
   cursor: pointer;
@@ -1154,8 +1144,8 @@ button.active {
 
 .actions .view-image {
   border-radius: 50%;
-  border: 1px var(--portfolio-filter-buttons-active-bg-color) solid;
-  color: green;
+  border: var(--color-border) 1px solid;
+  color: white;
   padding: 5px 10px;
   cursor: pointer;
   transition: 0.3s;
@@ -1166,7 +1156,7 @@ button.active {
 }
 
 .actions span:hover {
-  color: var(--action-span-hoover-color);
+  color: var(--color-accent);
 }
 
 .modal-content {
@@ -1175,7 +1165,7 @@ button.active {
 }
 
 .modal-details {
-  background: var(--portfolio-modal-bg-color);
+  background: var(--color-bg-alt);
   padding: 20px;
   border-radius: 10px;
 }
@@ -1185,7 +1175,7 @@ button.active {
   top: 10px;
   right: 20px;
   font-size: 30px;
-  color: var(--close-clor);
+  color: var(--color-text-muted);
   cursor: pointer;
 }
 
@@ -1214,14 +1204,14 @@ button.active {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: var(--color-bg-alt);
   justify-content: center;
   align-items: center;
   z-index: 1000;
 }
 
 #portfolio .modal-content {
-  background: var(--portfolio-modal-bg-color);
+  background: var(--color-bg-alt);
   border-radius: 10px;
   width: 50%;
   text-align: center;
@@ -1241,14 +1231,14 @@ button.active {
 }
 
 .close:hover {
-  color: var(--close-hoover-color);
+  color: var(--color-accent);
 }
 
 /*  */
 #gallery {
   padding: 40px 0;
   text-align: center;
-  background-color: var(--gallery-bg-color);
+  background-color: var(--color-bg);
 }
 
 /* Gallery - Single Row */
@@ -1297,7 +1287,7 @@ button.active {
   top: 0;
   width: 100%;
   height: 100%;
-  background: var(--portfolio-modal-content-color);
+  background: var(--color-bg-alt);
   justify-content: center;
   align-items: center;
 }
@@ -1311,7 +1301,7 @@ button.active {
   position: absolute;
   top: 20px;
   right: 30px;
-  color: black;
+  color: var(--color-text-muted);
   font-size: 30px;
   cursor: pointer;
 }
@@ -1322,8 +1312,8 @@ button.active {
   bottom: 10px; /* Initially hidden */
   left: 10px;
   right: 10px;
-  background: rgb(250, 247, 247);
-  color: #000;
+  background: var(--color-text);
+  color: var(--color-bg);
   font-size: 14px;
   font-weight: bold;
   padding: 5px;
@@ -1359,8 +1349,8 @@ html {
 
 #article {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: var(--stats-bg-color);
-  color: var(--faq-answer-color);
+  background-color: var(--color-bg);
+  color: var(--color-text);
   line-height: 1.6;
   padding: 20px;
 }
@@ -1368,7 +1358,6 @@ html {
 h1 {
   font-size: 2.5rem;
   font-weight: 600;
-  color: var(--faq-answer-color);
   margin-bottom: 30px;
   text-align: center;
 }
@@ -1385,16 +1374,16 @@ h1 {
   max-width: 600px;
   padding: 15px;
   font-size: 1.2rem;
-  border: 1px solid var(--form-group-input-border-color);
+  border: var(--color-border) solid;
   border-radius: 8px;
-  background-color: var(--white-color);
-  color: var(--faq-answer-color);
+  background-color: var(--color-bg-alt);
+  color: var(--color-text);
   margin: 0 auto;
   transition: all 0.3s ease-in-out;
 }
 
 #search-input:focus {
-  border-color: var(--resume-section-h3-color);
+  border-color: var(--color-secondary);
   outline: none;
 }
 
@@ -1409,11 +1398,11 @@ h1 {
 
 .filter-checkbox {
   font-size: 1.1rem;
-  color: var(--black-color);
+  color: var(--color-text);
   cursor: pointer;
   display: flex;
   align-items: center;
-  border: var(--faq-answer-color) solid 2px;
+  border: var(--color-border) 2px solid;
   padding: 5px 10px;
   border-radius: 5px;
 }
@@ -1425,7 +1414,7 @@ h1 {
   cursor: pointer;
   appearance: none;
   /* Remove default checkbox styling */
-  border: 2px solid var(--filter-checkbox-input-border-color);
+  border: var(--color-border) solid;
   /* Border color */
   border-radius: 5px;
   transition: background-color 0.3s, border-color 0.3s;
@@ -1433,9 +1422,9 @@ h1 {
 
 /* Checkbox checked state */
 .filter-checkbox input[type="checkbox"]:checked {
-  background-color: var(--filter-checkbox-input-border-color);
+  background-color: var(--color-accent);
   /* Background color when checked */
-  border-color: var(--filter-checkbox-input-border-color);
+  border-color: var(--color-secondary);
   /* Change border color when checked */
 }
 
@@ -1450,20 +1439,20 @@ h1 {
 .article-link {
   display: block;
   padding: 10px 20px;
-  background-color: var(--white-color);
+  background-color: var(--color-bg-alt);
   border-radius: 5px;
   text-decoration: none;
-  color: var(--black-color);
+  color: var(--color-text);
   transition: all 0.3s ease;
   position: relative;
 }
 
 .article-link:hover {
-  background-color: var(--simple-white-color);
+  background-color: var(--color-hover);
 }
 
 .article-link:active {
-  background-color: var(--article-link-active-bg-color);
+  background-color: var(--color-border);
 }
 
 /* Hover Effect for Icons */
@@ -1474,7 +1463,7 @@ h1 {
   top: 50%;
   transform: translateY(-50%);
   font-size: 1.5rem;
-  color: var(--filter-checkbox-input-border-color);
+  color: var(--color-text-muted);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -1586,8 +1575,8 @@ h1 {
   display: none; /* Hide on larger screens */
   font-size: 24px;
   cursor: pointer;
-  background: var(--mobile-icon-bg-color);
-  color: var(--white-color);
+  background: var(--color-bg-alt);
+  color: var(--color-text-muted);
   text-align: center;
   position: fixed;
   top: 5px;
@@ -1609,20 +1598,20 @@ h1 {
 }
 
 #lang-list li.active {
-  background-color: #4caf50;
+  background-color: var(--color-primary);
   font-weight: bold;
-  color: #000;
+  color: var(--color-text-muted);
 }
 
 #theme-options li.active {
-  background-color: #4caf50;
-  color: #fff;
+  background-color: var(--color-primary);
+  color: var(--color-text-muted);
   font-weight: bold;
 }
 
 /* Optional dark mode active style */
 .theme-dark #theme-options li.active {
-  background-color: #4caf50;
-  color: #000;
+  background-color: var(--color-primary);
+  color: var(--color-text-muted);
 }
 

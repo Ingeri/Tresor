@@ -125,24 +125,40 @@
                         </svg><span data-i18n="faq">FQA</span></a>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle"><svg class="icon">
-                            <use xlink:href="icon.svg#fqa"></use>
-                        </svg><span data-i18n="settings">Settings</span></a>
+                    <a href="#" class="dropdown-toggle">
+                        <svg class="icon"><use xlink:href="settings.svg#system"></use></svg>
+                        <span data-i18n="settings">Settings</span>
+                    </a>
                     <div class="dropdown-content">
                         <div class="sub-dropdown-content">
-                            <h3 data-i18n="language">Language</h3>
+                            <h3>
+                                <svg class="icon"><use xlink:href="settings.svg#language"></use></svg>
+                                <span data-i18n="language">Language</span>
+                            </h3>
                             <ul id="lang-list">
-                                <li data-lang="en">🇬🇧 Eng</li>
-                                <li data-lang="fr">Fra</li>
-                                <li data-lang="rw">Kin</li>
+                                <li data-lang="en"><img src="img/en.png" alt="british flag" class="flag-icon"> Eng</li>
+                                <li data-lang="fr"><img src="img/fr.png" alt="French flag" class="flag-icon"> Fra</li>
+                                <li data-lang="rw"><img src="img/rw.png" alt="Rwandan flag" class="flag-icon"> Kin</li>
                             </ul>
                         </div>
                         <div class="sub-dropdown-content">
-                            <h3 data-i18n="theme">Theme</h3>
+                            <h3>
+                                <svg class="icon"><use xlink:href="settings.svg#theme"></use></svg>
+                                <span data-i18n="theme">Theme</span>
+                            </h3>
                             <ul id="theme-options">
-                                <li data-theme="light" data-i18n="light">Light</li>
-                                <li data-theme="dark" data-i18n="dark">Dark</li>
-                                <li data-theme="system" data-i18n="System">System</li>
+                                <li data-theme="light">
+                                    <svg class="icon"><use xlink:href="settings.svg#light-mode"></use></svg>
+                                    <span data-i18n="light">Light</span>
+                                </li>
+                                <li data-theme="dark">
+                                    <svg class="icon"><use xlink:href="settings.svg#dark-mode"></use></svg>
+                                    <span data-i18n="dark">Dark</span>
+                                </li>
+                                <li data-theme="system">
+                                    <svg class="icon"><use xlink:href="settings.svg#system"></use></svg>
+                                    <span data-i18n="System">System</span>
+                                </li>
                             </ul>                              
                         </div>
                     </div>
