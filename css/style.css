@@ -1615,3 +1615,19 @@ h1 {
   color: var(--color-text-muted);
 }
 
+/*  */
+.article-item {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+
+.article-overview {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  border-width: 0 1px 1px 1px;
+  border-color: var(--color-border);
+  border-style: solid;
+  padding: 0 10px 10px 10px;
+}

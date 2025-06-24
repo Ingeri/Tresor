@@ -146,7 +146,7 @@
                                 <svg class="icon"><use xlink:href="settings.svg#theme"></use></svg>
                                 <span data-i18n="theme">Theme</span>
                             </h3>
-                            <ul id="theme-options">
+                            <!-- <ul id="theme-options">
                                 <li data-theme="light">
                                     <svg class="icon"><use xlink:href="settings.svg#light-mode"></use></svg>
                                     <span data-i18n="light">Light</span>
@@ -159,7 +159,57 @@
                                     <svg class="icon"><use xlink:href="settings.svg#system"></use></svg>
                                     <span data-i18n="System">System</span>
                                 </li>
-                            </ul>                              
+                            </ul>                               -->
+                            <ul id="theme-options">
+                                <li data-theme="light">
+                                    <svg class="icon">
+                                        <use xlink:href="settings.svg#light-mode"></use>
+                                    </svg>
+                                    <span>Light</span>
+                                </li>
+                                <li data-theme="dark">
+                                    <svg class="icon">
+                                        <use xlink:href="settings.svg#dark-mode"></use>
+                                    </svg>
+                                    <span>Dark</span>
+                                </li>
+                                <li data-theme="system">
+                                    <svg class="icon">
+                                        <use xlink:href="settings.svg#system"></use>
+                                    </svg>
+                                    <span>System</span>
+                                </li>
+                            </ul>
+                            
+                            <!-- Dropdown for extra themes -->
+                            <label for="extra-themes">More Themes:</label>
+                            <select id="extra-themes">
+                                <option value="">-- Select Theme --</option>
+                                <option value="high-contrast">High Contrast</option>
+                                <option value="colorful">Colorful</option>
+                                <option value="muted">Muted</option>
+                                <option value="custom">Custom</option>
+                                <option value="contrast">Contrast</option>
+                                <option value="soft">Soft</option>
+                                <option value="vibrant">Vibrant</option>
+                                <option value="neutral">Neutral</option>
+                                <option value="legacy">Legacy</option>
+                                <option value="modern">Modern</option>
+                                <option value="minimal">Minimal</option>
+                                <option value="elegant">Elegant</option>
+                                <option value="futuristic">Futuristic</option>
+                                <option value="eco">Eco</option>
+                                <option value="urban">Urban</option>
+                                <option value="royal">Royal</option>
+                                <option value="zen">Zen</option>
+                                <option value="abstract">Abstract</option>
+                                <option value="heritage">Heritage</option>
+                                <option value="tribal">Tribal</option>
+                                <option value="ethereal">Ethereal</option>
+                                <option value="urban-chic">Urban Chic</option>
+                                <option value="zen-garden">Zen Garden</option>
+                            </select>
+                              
                         </div>
                     </div>
                 </li>
@@ -1181,6 +1231,8 @@
             </footer>
         </main>
     </div>
+
+    <script src="js/article.js"></script>
 </body>
 
 </html>
